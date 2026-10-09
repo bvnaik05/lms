@@ -17,7 +17,7 @@
 				v-else-if="column.key === 'status'"
 				:theme="value === 'Passed' ? 'green' : 'red'"
 			>
-				{{ value }}
+				{{ __(value) }}
 			</Badge>
 			<div
 				v-else-if="column.key === 'modified'"

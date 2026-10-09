@@ -208,7 +208,7 @@ msgstr ""
 
 #: frontend/src/components/Settings/Raven/WorkspaceList.vue:107
 msgid "Active"
-msgstr ""
+msgstr "활성"
 
 #: frontend/src/pages/Statistics.vue:19
 msgid "Active Members"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "배치에 강좌 추가"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "배치에 학생 추가"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "첫 번째 장을 추가하세요"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "첫 번째 강의를 추가하세요"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -473,11 +473,11 @@ msgstr ""
 #: frontend/src/components/Settings/Raven/WorkspaceList.vue:106
 #: frontend/src/pages/Batches/Batches.vue:327
 msgid "All"
-msgstr ""
+msgstr "모두"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr ""
+msgstr "전체 기수"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -710,7 +710,7 @@ msgstr ""
 
 #: frontend/src/pages/Batches/Batches.vue:338
 msgid "Archived"
-msgstr ""
+msgstr "보관됨"
 
 #: frontend/src/components/UpcomingEvaluations.vue:218
 msgid "Are you sure you want to cancel this evaluation? This action cannot be undone."
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "일괄"
+msgstr "기수"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr ""
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr ""
+msgstr "기수"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1761,7 +1761,7 @@ msgstr ""
 #: frontend/src/components/Settings/Categories.vue:10
 #: frontend/src/components/Settings/Settings.vue:51
 msgid "Close"
-msgstr ""
+msgstr "닫기"
 
 #: frontend/src/pages/Forms/QuizForm.vue:631
 msgid "Close preview"
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr ""
+msgstr "접기"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -2628,15 +2628,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "첫 번째 배치 만들기"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
-msgstr ""
+msgstr "첫 번째 코스 만들기"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "첫 번째 퀴즈 만들기"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -3472,7 +3472,7 @@ msgstr "수강생을 등록하면 여기에서 진도를 추적할 수 있습니
 #: frontend/src/pages/Courses/Courses.vue:342
 #: frontend/src/pages/Programs/StudentPrograms.vue:98
 msgid "Enrolled"
-msgstr ""
+msgstr "등록됨"
 
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
 #: frontend/src/pages/Courses/CourseDashboard.vue:417
@@ -3800,7 +3800,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr ""
+msgstr "펼치기"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -4383,7 +4383,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:97
 msgid "Help"
-msgstr ""
+msgstr "도움말"
 
 #: lms/templates/courses_created.html:15
 msgid "Help others learn something new by creating a course."
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:356
 msgid "Invite your team and students"
-msgstr ""
+msgstr "팀과 학생을 초대하세요"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -5721,7 +5721,7 @@ msgstr ""
 #: frontend/src/components/Notifications/NotificationPanel.vue:26
 #: frontend/src/components/Notifications/NotificationPanel.vue:29
 msgid "Mark all as read"
-msgstr ""
+msgstr "모두 읽음으로 표시"
 
 #: frontend/src/components/Quiz/QuestionAnswers.vue:72
 msgid "Mark at least two correct answers"
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "읽은 알림 없음"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "읽지 않은 알림 없음"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6579,7 +6579,7 @@ msgstr ""
 #: frontend/src/components/Layouts/EmptyStateLayout.vue:40
 #: frontend/src/components/Layouts/pages/ListPage.vue:256
 msgid "No {0} Found"
-msgstr ""
+msgstr "{0}을(를) 찾을 수 없습니다"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:88
 msgid "No {0} match this filter"
@@ -6699,7 +6699,7 @@ msgstr ""
 #: frontend/src/components/Notifications/NotificationPanel.vue:23
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Notifications"
-msgstr ""
+msgstr "알림"
 
 #. Label of the notifications (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "읽은 알림이 여기에 표시됩니다."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -8171,7 +8171,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:125
 msgid "Read"
-msgstr ""
+msgstr "읽기"
 
 #: frontend/src/components/Settings/Transactions/TransactionForm.vue:254
 msgid "Read from the coupon above every time this is saved."
@@ -8378,7 +8378,7 @@ msgstr ""
 #: frontend/src/components/ProgrammingExercises/ExerciseWorkspace.vue:14
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:497
 msgid "Reset"
-msgstr ""
+msgstr "재설정"
 
 #: frontend/src/pages/Forms/QuizForm.vue:331
 msgid "Restrict when learners can start and submit this quiz."
@@ -9209,7 +9209,7 @@ msgstr ""
 
 #: lms/templates/onboarding_header.html:6
 msgid "Skip"
-msgstr ""
+msgstr "건너뛰기"
 
 #: frontend/src/pages/Forms/PersonaForm.vue:19
 msgid "Skip for now"
@@ -10618,11 +10618,11 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:340
 #: frontend/src/pages/Programs/Programs.vue:257
 msgid "Unpublished"
-msgstr ""
+msgstr "게시되지 않음"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
-msgstr ""
+msgstr "읽지 않음"
 
 #: lms/lms/course_import_export.py:1056
 msgid "Unsafe file path detected"
@@ -10665,11 +10665,11 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Upcoming"
-msgstr ""
+msgstr "예정"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr ""
+msgstr "예정된 기수"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "여러분 모두 따라잡혔어요! 나중에 다시 업데이트를 확인하세요."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr ""
 msgid "{} Published"
 msgstr ""
 
+msgid "Welcome to {0}"
+msgstr "{0}에 오신 것을 환영합니다"
+
+msgid "Continue"
+msgstr "계속"
+
+msgid "Getting started"
+msgstr "시작하기"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1}걸음"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} 단계 완료됨"
+
+msgid "{0}% completed"
+msgstr "{0}% 완료됨"
+
+msgid "You are all set"
+msgstr "모든 설정이 완료되었습니다."
+
+msgid "All steps are completed successfully"
+msgstr "모든 단계가 성공적으로 완료되었습니다."
+
+msgid "Start now"
+msgstr "지금 시작하세요"
+
+msgid "Reset all"
+msgstr "모두 재설정"
+
+msgid "Skip all"
+msgstr "모두 건너뛰기"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "먼저 \"{0}\"을(를) 완료해야 합니다."
+
+msgid "Reset onboarding steps"
+msgstr "온보딩 단계 재설정"
+
+msgid "Help centre"
+msgstr "도움말 센터"
+
+msgid "Search articles..."
+msgstr "기사 검색..."
+
+msgid "All articles"
+msgstr "모든 기사"
+
+msgid "Active Batches"
+msgstr "활성 기수"
+
+msgid "Archived Batches"
+msgstr "보관된 기수"
+
+msgid "Unpublished Batches"
+msgstr "미공개 기수"
+
+msgid "Enrolled Batches"
+msgstr "등록한 기수"
+
+msgid "New learning experiences will appear here soon."
+msgstr "새로운 학습 경험이 곧 여기에 표시됩니다."
+
+msgid "No batches found"
+msgstr "기수를 찾을 수 없습니다"

@@ -208,7 +208,7 @@ msgstr ""
 
 #: frontend/src/components/Settings/Raven/WorkspaceList.vue:107
 msgid "Active"
-msgstr ""
+msgstr "Activ"
 
 #: frontend/src/pages/Statistics.vue:19
 msgid "Active Members"
@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "Adăugați cursuri la lotul dvs"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "Adăugați studenți în lot"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "Adaugă primul tău capitol"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "Adaugă prima ta lecție"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -473,11 +473,11 @@ msgstr ""
 #: frontend/src/components/Settings/Raven/WorkspaceList.vue:106
 #: frontend/src/pages/Batches/Batches.vue:327
 msgid "All"
-msgstr ""
+msgstr "Toate"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr ""
+msgstr "Toate grupurile"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -710,7 +710,7 @@ msgstr ""
 
 #: frontend/src/pages/Batches/Batches.vue:338
 msgid "Archived"
-msgstr ""
+msgstr "Arhivat"
 
 #: frontend/src/components/UpcomingEvaluations.vue:218
 msgid "Are you sure you want to cancel this evaluation? This action cannot be undone."
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr ""
+msgstr "grupă"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr ""
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr ""
+msgstr "grupe"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1761,7 +1761,7 @@ msgstr ""
 #: frontend/src/components/Settings/Categories.vue:10
 #: frontend/src/components/Settings/Settings.vue:51
 msgid "Close"
-msgstr ""
+msgstr "Închide"
 
 #: frontend/src/pages/Forms/QuizForm.vue:631
 msgid "Close preview"
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr ""
+msgstr "Restrânge"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -2628,15 +2628,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "Creați primul dvs. lot"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
-msgstr ""
+msgstr "Creează primul tău curs"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "Creați primul dvs. test"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -3472,7 +3472,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:342
 #: frontend/src/pages/Programs/StudentPrograms.vue:98
 msgid "Enrolled"
-msgstr ""
+msgstr "Înscris"
 
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
 #: frontend/src/pages/Courses/CourseDashboard.vue:417
@@ -3800,7 +3800,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr ""
+msgstr "Extinde"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -4383,7 +4383,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:97
 msgid "Help"
-msgstr ""
+msgstr "Ajutor"
 
 #: lms/templates/courses_created.html:15
 msgid "Help others learn something new by creating a course."
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:356
 msgid "Invite your team and students"
-msgstr ""
+msgstr "Invitați-vă echipa și studenții"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -5721,7 +5721,7 @@ msgstr ""
 #: frontend/src/components/Notifications/NotificationPanel.vue:26
 #: frontend/src/components/Notifications/NotificationPanel.vue:29
 msgid "Mark all as read"
-msgstr ""
+msgstr "Marcați totul ca citit"
 
 #: frontend/src/components/Quiz/QuestionAnswers.vue:72
 msgid "Mark at least two correct answers"
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Fără notificări citite"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Fără notificări necitite"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6579,7 +6579,7 @@ msgstr ""
 #: frontend/src/components/Layouts/EmptyStateLayout.vue:40
 #: frontend/src/components/Layouts/pages/ListPage.vue:256
 msgid "No {0} Found"
-msgstr ""
+msgstr "Nu a fost găsit {0}"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:88
 msgid "No {0} match this filter"
@@ -6699,7 +6699,7 @@ msgstr ""
 #: frontend/src/components/Notifications/NotificationPanel.vue:23
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Notifications"
-msgstr ""
+msgstr "Notificări"
 
 #. Label of the notifications (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Notificările pe care le-ați citit vor apărea aici."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -8171,7 +8171,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:125
 msgid "Read"
-msgstr ""
+msgstr "Citiți"
 
 #: frontend/src/components/Settings/Transactions/TransactionForm.vue:254
 msgid "Read from the coupon above every time this is saved."
@@ -8378,7 +8378,7 @@ msgstr ""
 #: frontend/src/components/ProgrammingExercises/ExerciseWorkspace.vue:14
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:497
 msgid "Reset"
-msgstr ""
+msgstr "Resetați"
 
 #: frontend/src/pages/Forms/QuizForm.vue:331
 msgid "Restrict when learners can start and submit this quiz."
@@ -9209,7 +9209,7 @@ msgstr ""
 
 #: lms/templates/onboarding_header.html:6
 msgid "Skip"
-msgstr ""
+msgstr "Sari peste"
 
 #: frontend/src/pages/Forms/PersonaForm.vue:19
 msgid "Skip for now"
@@ -10618,11 +10618,11 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:340
 #: frontend/src/pages/Programs/Programs.vue:257
 msgid "Unpublished"
-msgstr ""
+msgstr "Nepublicat"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
-msgstr ""
+msgstr "Necitit"
 
 #: lms/lms/course_import_export.py:1056
 msgid "Unsafe file path detected"
@@ -10665,11 +10665,11 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Upcoming"
-msgstr ""
+msgstr "În viitor"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr ""
+msgstr "Grupuri viitoare"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Sunteți cu toții prinși! Reveniți mai târziu pentru actualizări."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr ""
 msgid "{} Published"
 msgstr ""
 
+msgid "Welcome to {0}"
+msgstr "Bun venit la {0}"
+
+msgid "Continue"
+msgstr "Continuă"
+
+msgid "Getting started"
+msgstr "Pentru început"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} pași"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} pași finalizați"
+
+msgid "{0}% completed"
+msgstr "{0}% finalizat"
+
+msgid "You are all set"
+msgstr "Sunteți gata"
+
+msgid "All steps are completed successfully"
+msgstr "Toți pașii sunt finalizați cu succes"
+
+msgid "Start now"
+msgstr "Începe acum"
+
+msgid "Reset all"
+msgstr "Resetați toate"
+
+msgid "Skip all"
+msgstr "Sari peste toate"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Mai întâi trebuie să completați „{0}”."
+
+msgid "Reset onboarding steps"
+msgstr "Resetați pașii de îmbarcare"
+
+msgid "Help centre"
+msgstr "Centru de ajutor"
+
+msgid "Search articles..."
+msgstr "Căutați articole..."
+
+msgid "All articles"
+msgstr "Toate articolele"
+
+msgid "Active Batches"
+msgstr "Grupuri active"
+
+msgid "Archived Batches"
+msgstr "Grupuri arhivate"
+
+msgid "Unpublished Batches"
+msgstr "Grupuri nepublicate"
+
+msgid "Enrolled Batches"
+msgstr "Grupuri la care ești înscris"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Noi experiențe de învățare vor apărea aici în curând."
+
+msgid "No batches found"
+msgstr "Nu s-au găsit grupuri"

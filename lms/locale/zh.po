@@ -477,7 +477,7 @@ msgstr "全部"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr "所有批次"
+msgstr "所有班级"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "批次"
+msgstr "班级"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "批次："
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "批次"
+msgstr "班级"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -6530,7 +6530,7 @@ msgstr "暂未添加测验。"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "没有已读通知"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "没有未读通知"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "您已阅读的通知将显示在此处。"
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10669,7 +10669,7 @@ msgstr "即将到来"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "即将开课批次"
+msgstr "即将开始的班级"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr "您真棒，"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "你们都被抓住了！稍后回来查看更新。"
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr "{} 通过"
 msgid "{} Published"
 msgstr "{} 已发布"
 
+msgid "Welcome to {0}"
+msgstr "欢迎来到{0}"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "Getting started"
+msgstr "开始使用"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} 步"
+
+msgid "{0}/{1} steps completed"
+msgstr "已完成 {0}/{1} 步"
+
+msgid "{0}% completed"
+msgstr "已完成 {0}%"
+
+msgid "You are all set"
+msgstr "你已经准备好了"
+
+msgid "All steps are completed successfully"
+msgstr "所有步骤均已成功完成"
+
+msgid "Start now"
+msgstr "现在开始"
+
+msgid "Reset all"
+msgstr "全部重置"
+
+msgid "Skip all"
+msgstr "全部跳过"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "您需要先完成“{0}”。"
+
+msgid "Reset onboarding steps"
+msgstr "重置入职步骤"
+
+msgid "Help centre"
+msgstr "帮助中心"
+
+msgid "Search articles..."
+msgstr "搜索文章..."
+
+msgid "All articles"
+msgstr "所有文章"
+
+msgid "Active Batches"
+msgstr "活跃班级"
+
+msgid "Archived Batches"
+msgstr "已归档班级"
+
+msgid "Unpublished Batches"
+msgstr "未发布的班级"
+
+msgid "Enrolled Batches"
+msgstr "已报名的班级"
+
+msgid "New learning experiences will appear here soon."
+msgstr "新的学习体验很快就会出现在这里。"
+
+msgid "No batches found"
+msgstr "未找到班级"

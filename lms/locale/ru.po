@@ -477,7 +477,7 @@ msgstr "Все"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr "Все партии"
+msgstr "Все группы"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Пакет"
+msgstr "группа"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Партия:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "Группы"
+msgstr "группы"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -6530,7 +6530,7 @@ msgstr "Еще не добавлено ни одного теста."
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Нет уведомлений о прочтении"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Нет непрочитанных уведомлений"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Здесь появятся прочитанные вами уведомления."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -11590,7 +11590,7 @@ msgstr "Вы получили,"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Вы все в плену! Зайдите позже для обновлений."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr "{} Прошел"
 msgid "{} Published"
 msgstr "{} Опубликовано"
 
+msgid "Welcome to {0}"
+msgstr "Добро пожаловать в {0}"
+
+msgid "Continue"
+msgstr "Продолжить"
+
+msgid "Getting started"
+msgstr "Начало работы"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} шагов"
+
+msgid "{0}/{1} steps completed"
+msgstr "Шагов: {0}/{1} выполнено"
+
+msgid "{0}% completed"
+msgstr "{0} % выполнено"
+
+msgid "You are all set"
+msgstr "У вас все готово"
+
+msgid "All steps are completed successfully"
+msgstr "Все шаги выполнены успешно"
+
+msgid "Start now"
+msgstr "Начни сейчас"
+
+msgid "Reset all"
+msgstr "Сбросить все"
+
+msgid "Skip all"
+msgstr "Пропустить все"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Сначала вам необходимо выполнить «{0}»."
+
+msgid "Reset onboarding steps"
+msgstr "Сбросить этапы регистрации"
+
+msgid "Help centre"
+msgstr "Справочный центр"
+
+msgid "Search articles..."
+msgstr "Искать статьи..."
+
+msgid "All articles"
+msgstr "Все статьи"
+
+msgid "Active Batches"
+msgstr "Активные группы"
+
+msgid "Archived Batches"
+msgstr "Архивированные группы"
+
+msgid "Unpublished Batches"
+msgstr "Неопубликованные группы"
+
+msgid "Enrolled Batches"
+msgstr "Группы, в которые вы записаны"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Скоро здесь появятся новые возможности обучения."
+
+msgid "No batches found"
+msgstr "Группы не найдены"

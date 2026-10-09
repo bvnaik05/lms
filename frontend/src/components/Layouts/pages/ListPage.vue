@@ -68,7 +68,12 @@
 			</template>
 		</ResponsiveListView>
 		<div v-else class="flex-1">
-			<EmptyStateLayout :name="emptyName" :icon="emptyIcon" />
+			<EmptyStateLayout
+				:name="emptyName"
+				:title="emptyTitle"
+				:description="emptyDescription"
+				:icon="emptyIcon"
+			/>
 		</div>
 
 		<template #footer>
@@ -158,6 +163,8 @@ const props = withDefaults(
 		pageLengthOptions?: number[]
 		/** What the empty state calls these rows, e.g. "Courses". */
 		emptyName?: string
+		emptyTitle?: string
+		emptyDescription?: string
 		emptyIcon?: string
 	}>(),
 	{
@@ -174,6 +181,8 @@ const props = withDefaults(
 		// of cards is never a stub. 60 and 120 keep that property.
 		pageLengthOptions: () => [24, 60, 120],
 		emptyName: '',
+		emptyTitle: '',
+		emptyDescription: '',
 		emptyIcon: 'lucide-graduation-cap',
 	}
 )

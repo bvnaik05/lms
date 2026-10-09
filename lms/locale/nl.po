@@ -477,7 +477,7 @@ msgstr "Allemaal"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr "Alle batches"
+msgstr "Alle groepen"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Partij"
+msgstr "groep"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Batch:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "Batches"
+msgstr "groepen"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1811,7 +1811,7 @@ msgstr "Voorkeur voor samenwerking"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "Ineenstorting"
+msgstr "Inklappen"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -3800,7 +3800,7 @@ msgstr "Cursus succesvol verwijderd"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "Uitbreiden"
+msgstr "Uitklappen"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -6530,7 +6530,7 @@ msgstr "Er zijn nog geen quizzen toegevoegd."
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Geen leesmeldingen"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Geen ongelezen meldingen"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Meldingen die je hebt gelezen, verschijnen hier."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10670,7 +10670,7 @@ msgstr "Aankomende"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "Komende Batches"
+msgstr "Aankomende groepen"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11591,7 +11591,7 @@ msgstr "Je bent geweldig,"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Jullie zijn allemaal ingehaald! Kom later terug voor updates."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12368,3 +12368,68 @@ msgstr "{} Geslaagd"
 msgid "{} Published"
 msgstr "{} Gepubliceerd"
 
+msgid "Welcome to {0}"
+msgstr "Welkom bij {0}"
+
+msgid "Continue"
+msgstr "Ga door"
+
+msgid "Getting started"
+msgstr "Aan de slag"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} stappen"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} stappen voltooid"
+
+msgid "{0}% completed"
+msgstr "{0}% voltooid"
+
+msgid "You are all set"
+msgstr "Je bent helemaal klaar"
+
+msgid "All steps are completed successfully"
+msgstr "Alle stappen zijn met succes voltooid"
+
+msgid "Start now"
+msgstr "Begin nu"
+
+msgid "Reset all"
+msgstr "Alles resetten"
+
+msgid "Skip all"
+msgstr "Alles overslaan"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "U moet eerst \"{0}\" invullen."
+
+msgid "Reset onboarding steps"
+msgstr "Onboardingstappen opnieuw instellen"
+
+msgid "Help centre"
+msgstr "Helpcentrum"
+
+msgid "Search articles..."
+msgstr "Artikelen zoeken..."
+
+msgid "All articles"
+msgstr "Alle artikelen"
+
+msgid "Active Batches"
+msgstr "Actieve groepen"
+
+msgid "Archived Batches"
+msgstr "Gearchiveerde groepen"
+
+msgid "Unpublished Batches"
+msgstr "Niet-gepubliceerde groepen"
+
+msgid "Enrolled Batches"
+msgstr "Groepen waarvoor je bent ingeschreven"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Binnenkort verschijnen hier nieuwe leerervaringen."
+
+msgid "No batches found"
+msgstr "Geen groepen gevonden"

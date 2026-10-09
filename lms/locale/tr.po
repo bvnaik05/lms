@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "Grubunuza kurs ekleyin"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "Grubunuza öğrenci ekleyin"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "İlk bölümünüzü ekleyin"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "İlk dersinizi ekleyin"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -477,7 +477,7 @@ msgstr "Tümü"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr ""
+msgstr "Tüm sınıflar"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Parti"
+msgstr "sınıf"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Parti:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "Sınıflar"
+msgstr "sınıflar"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -2628,15 +2628,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "İlk grubunuzu oluşturun"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
-msgstr ""
+msgstr "İlk kursunuzu oluşturun"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "İlk testinizi oluşturun"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:356
 msgid "Invite your team and students"
-msgstr ""
+msgstr "Ekibinizi ve öğrencilerinizi davet edin"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Okundu bildirimi yok"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Okunmamış bildirim yok"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Okuduğunuz bildirimler burada görünecektir."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10618,7 +10618,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:340
 #: frontend/src/pages/Programs/Programs.vue:257
 msgid "Unpublished"
-msgstr ""
+msgstr "yayınlanmamış"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
@@ -10669,7 +10669,7 @@ msgstr "Yaklaşanlar"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "Yaklaşan Sınıflar"
+msgstr "Yaklaşan sınıflar"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Hepiniz yakalandınız! Güncellemeler için daha sonra tekrar kontrol edin."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr "{} Geçti"
 msgid "{} Published"
 msgstr ""
 
+msgid "Welcome to {0}"
+msgstr "{0}'a hoş geldiniz"
+
+msgid "Continue"
+msgstr "Devam et"
+
+msgid "Getting started"
+msgstr "Başlarken"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} adım"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} adım tamamlandı"
+
+msgid "{0}% completed"
+msgstr "%{0} tamamlandı"
+
+msgid "You are all set"
+msgstr "Artık hazırsınız"
+
+msgid "All steps are completed successfully"
+msgstr "Tüm adımlar başarıyla tamamlandı"
+
+msgid "Start now"
+msgstr "Şimdi başla"
+
+msgid "Reset all"
+msgstr "Tümünü sıfırla"
+
+msgid "Skip all"
+msgstr "Tümünü atla"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Önce \"{0}\" işlemini tamamlamanız gerekiyor."
+
+msgid "Reset onboarding steps"
+msgstr "İlk katılım adımlarını sıfırlayın"
+
+msgid "Help centre"
+msgstr "Yardım merkezi"
+
+msgid "Search articles..."
+msgstr "Makalelerde ara..."
+
+msgid "All articles"
+msgstr "Tüm makaleler"
+
+msgid "Active Batches"
+msgstr "Aktif sınıflar"
+
+msgid "Archived Batches"
+msgstr "Arşivlenmiş sınıflar"
+
+msgid "Unpublished Batches"
+msgstr "Yayımlanmamış sınıflar"
+
+msgid "Enrolled Batches"
+msgstr "Kayıtlı olduğunuz sınıflar"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Yakında yeni öğrenme deneyimleri burada görünecek."
+
+msgid "No batches found"
+msgstr "Sınıf bulunamadı"

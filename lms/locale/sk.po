@@ -382,7 +382,7 @@ msgstr "Všetko"
 
 #: frontend/src/pages/Batches/Batches.vue:53
 msgid "All Batches"
-msgstr "Všetky školiace kolá"
+msgstr "Všetky skupiny"
 
 #: frontend/src/pages/Courses/Courses.vue:37 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -915,7 +915,7 @@ msgstr "Odznak {0} sa nenašiel"
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Školiace kolo"
+msgstr "skupina"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1073,7 +1073,7 @@ msgstr "Školiace kolo:"
 #: lms/lms/doctype/lms_settings/lms_settings.json
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:132
 msgid "Batches"
-msgstr "Školiace kolá"
+msgstr "skupiny"
 
 #: lms/templates/emails/batch_confirmation.html:33
 #: lms/templates/emails/batch_start_reminder.html:31
@@ -8908,7 +8908,7 @@ msgstr "Nadchádzajúce"
 
 #: frontend/src/pages/Home/AdminHome.vue:141
 msgid "Upcoming Batches"
-msgstr "Nadchádzajúce školiace kolá"
+msgstr "Nadchádzajúce skupiny"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -10185,3 +10185,81 @@ msgstr "Úspešne absolvované: {}"
 #: lms/lms/workspace/learning/learning.json
 msgid "{} Published"
 msgstr "Zverejnené: {}"
+
+msgid "Welcome to {0}"
+msgstr "Vitajte v {0}"
+
+msgid "Continue"
+msgstr "Pokračovať"
+
+msgid "Reset"
+msgstr "Resetovať"
+
+msgid "Unread"
+msgstr "Neprečítané"
+
+msgid "Read"
+msgstr "Prečítajte si"
+
+msgid "Getting started"
+msgstr "Začíname"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} krokov"
+
+msgid "{0}/{1} steps completed"
+msgstr "Dokončené kroky: {0}/{1}"
+
+msgid "{0}% completed"
+msgstr "Dokončené: {0} %."
+
+msgid "You are all set"
+msgstr "Všetko je nastavené"
+
+msgid "All steps are completed successfully"
+msgstr "Všetky kroky sú úspešne dokončené"
+
+msgid "Start now"
+msgstr "Začnite hneď"
+
+msgid "Reset all"
+msgstr "Obnoviť všetky"
+
+msgid "Skip all"
+msgstr "Preskočiť všetko"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Najprv musíte dokončiť „{0}“."
+
+msgid "Reset onboarding steps"
+msgstr "Resetovať kroky registrácie"
+
+msgid "Help centre"
+msgstr "Centrum pomoci"
+
+msgid "Search articles..."
+msgstr "Hľadať články..."
+
+msgid "All articles"
+msgstr "Všetky články"
+
+msgid "Active"
+msgstr "Aktívne"
+
+msgid "Active Batches"
+msgstr "Aktívne skupiny"
+
+msgid "Archived Batches"
+msgstr "Archivované skupiny"
+
+msgid "Unpublished Batches"
+msgstr "Nezverejnené skupiny"
+
+msgid "Enrolled Batches"
+msgstr "Skupiny, do ktorých ste zapísaní"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Čoskoro sa tu objavia nové vzdelávacie skúsenosti."
+
+msgid "No batches found"
+msgstr "Nenašli sa žiadne skupiny"

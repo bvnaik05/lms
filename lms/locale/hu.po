@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "Adjon hozzá tanfolyamokat a köteghez"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "Adjon hozzá tanulókat a köteghez"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "Adja hozzá az első fejezetet"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "Adja hozzá az első leckét"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -477,7 +477,7 @@ msgstr "Összes"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr ""
+msgstr "Összes csoport"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Köteg"
+msgstr "csoport"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Köteg:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr ""
+msgstr "csoportok"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "Összeomlás"
+msgstr "Összecsukás"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -2628,15 +2628,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "Hozza létre az első köteget"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
-msgstr ""
+msgstr "Hozd létre az első tanfolyamot"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "Készítse el első kvízét"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -3472,7 +3472,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:342
 #: frontend/src/pages/Programs/StudentPrograms.vue:98
 msgid "Enrolled"
-msgstr ""
+msgstr "Beiratkozott"
 
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
 #: frontend/src/pages/Courses/CourseDashboard.vue:417
@@ -3800,7 +3800,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "Kiterjed"
+msgstr "Kinyitás"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:356
 msgid "Invite your team and students"
-msgstr ""
+msgstr "Hívja meg csapatát és diákjait"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Nincsenek olvasási értesítések"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Nincsenek olvasatlan értesítések"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Az elolvasott értesítések itt jelennek meg."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10618,7 +10618,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:340
 #: frontend/src/pages/Programs/Programs.vue:257
 msgid "Unpublished"
-msgstr ""
+msgstr "Nincs közzétéve"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
@@ -10665,11 +10665,11 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Upcoming"
-msgstr ""
+msgstr "Közelgő"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr ""
+msgstr "Közelgő csoportok"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Mindannyian elkaptak! Nézz vissza később a frissítésekért."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr ""
 msgid "{} Published"
 msgstr "{} Közzétett"
 
+msgid "Welcome to {0}"
+msgstr "Üdvözöljük itt: {0}"
+
+msgid "Continue"
+msgstr "Folytatás"
+
+msgid "Getting started"
+msgstr "Kezdő lépések"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} lépés"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} lépés teljesítve"
+
+msgid "{0}% completed"
+msgstr "{0}% kész"
+
+msgid "You are all set"
+msgstr "Minden készen áll"
+
+msgid "All steps are completed successfully"
+msgstr "Minden lépés sikeresen befejeződött"
+
+msgid "Start now"
+msgstr "Kezdje el most"
+
+msgid "Reset all"
+msgstr "Összes visszaállítása"
+
+msgid "Skip all"
+msgstr "Az összes kihagyása"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Először ki kell töltenie a következőt: \"{0}\"."
+
+msgid "Reset onboarding steps"
+msgstr "Állítsa vissza a belépési lépéseket"
+
+msgid "Help centre"
+msgstr "Súgó"
+
+msgid "Search articles..."
+msgstr "Cikkek keresése..."
+
+msgid "All articles"
+msgstr "Minden cikk"
+
+msgid "Active Batches"
+msgstr "Aktív csoportok"
+
+msgid "Archived Batches"
+msgstr "Archivált csoportok"
+
+msgid "Unpublished Batches"
+msgstr "Nem közzétett csoportok"
+
+msgid "Enrolled Batches"
+msgstr "Csoportok, amelyekre feliratkozott"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Hamarosan új tanulási tapasztalatok jelennek meg itt."
+
+msgid "No batches found"
+msgstr "Nem található csoport"

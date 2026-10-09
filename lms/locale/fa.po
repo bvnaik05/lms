@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "دوره ها را به دسته خود اضافه کنید"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "دانش آموزان را به گروه خود اضافه کنید"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr "افزودن به یادداشت‌ها"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "فصل اول خود را اضافه کنید"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "اولین درس خود را اضافه کنید"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -477,7 +477,7 @@ msgstr "همه"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr ""
+msgstr "همه گروه‌ها"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "دسته"
+msgstr "گروه"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "دسته:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr ""
+msgstr "گروه‌ها"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "جمع شدن"
+msgstr "جمع کردن"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -2628,7 +2628,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "اولین دسته خود را ایجاد کنید"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
@@ -2636,7 +2636,7 @@ msgstr "اولین دوره خود را ایجاد کنید"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "اولین آزمون خود را ایجاد کنید"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -3472,7 +3472,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:342
 #: frontend/src/pages/Programs/StudentPrograms.vue:98
 msgid "Enrolled"
-msgstr ""
+msgstr "ثبت نام کرد"
 
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
 #: frontend/src/pages/Courses/CourseDashboard.vue:417
@@ -3800,7 +3800,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "بسط دادن"
+msgstr "گسترش دادن"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "بدون اعلان خواندن"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "بدون اعلان خوانده نشده"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "اعلان‌هایی که خوانده‌اید در اینجا ظاهر می‌شوند."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10669,7 +10669,7 @@ msgstr "آینده"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr ""
+msgstr "گروه‌های آینده"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "همه شما گرفتار شده اید! بعداً برای به‌روزرسانی‌ها دوباره بررسی کنید."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr ""
 msgid "{} Published"
 msgstr ""
 
+msgid "Welcome to {0}"
+msgstr "به {0} خوش آمدید"
+
+msgid "Continue"
+msgstr "ادامه دهید"
+
+msgid "Getting started"
+msgstr "شروع کردن"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} مرحله"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} مرحله تکمیل شد"
+
+msgid "{0}% completed"
+msgstr "{0}% تکمیل شد"
+
+msgid "You are all set"
+msgstr "شما آماده اید"
+
+msgid "All steps are completed successfully"
+msgstr "تمام مراحل با موفقیت انجام شد"
+
+msgid "Start now"
+msgstr "همین الان شروع کن"
+
+msgid "Reset all"
+msgstr "همه را بازنشانی کنید"
+
+msgid "Skip all"
+msgstr "رد شدن از همه"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "ابتدا باید «{0}» را تکمیل کنید."
+
+msgid "Reset onboarding steps"
+msgstr "بازنشانی مراحل ورود"
+
+msgid "Help centre"
+msgstr "مرکز راهنمایی"
+
+msgid "Search articles..."
+msgstr "جستجو در مقالات..."
+
+msgid "All articles"
+msgstr "همه مقالات"
+
+msgid "Active Batches"
+msgstr "گروه‌های فعال"
+
+msgid "Archived Batches"
+msgstr "گروه‌های بایگانی‌شده"
+
+msgid "Unpublished Batches"
+msgstr "گروه‌های منتشرنشده"
+
+msgid "Enrolled Batches"
+msgstr "گروه‌هایی که در آن‌ها ثبت‌نام کرده‌اید"
+
+msgid "New learning experiences will appear here soon."
+msgstr "تجربیات یادگیری جدید به زودی در اینجا ظاهر می شود."
+
+msgid "No batches found"
+msgstr "گروهی پیدا نشد"

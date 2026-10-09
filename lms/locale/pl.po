@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "Dodaj kursy do swojej partii"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "Dodaj uczniów do swojej grupy"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "Dodaj swój pierwszy rozdział"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "Dodaj swoją pierwszą lekcję"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -477,7 +477,7 @@ msgstr "Wszystko"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr ""
+msgstr "Wszystkie grupy"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr ""
+msgstr "grupa"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Grupa:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr ""
+msgstr "grupy"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1811,7 +1811,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "Zawalić się"
+msgstr "Zwiń"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -2628,15 +2628,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "Utwórz pierwszą partię"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
-msgstr ""
+msgstr "Stwórz swój pierwszy kurs"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "Stwórz swój pierwszy quiz"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -3472,7 +3472,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:342
 #: frontend/src/pages/Programs/StudentPrograms.vue:98
 msgid "Enrolled"
-msgstr ""
+msgstr "Zapisany"
 
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
 #: frontend/src/pages/Courses/CourseDashboard.vue:417
@@ -3800,7 +3800,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "Rozszerzać"
+msgstr "Rozwiń"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:356
 msgid "Invite your team and students"
-msgstr ""
+msgstr "Zaproś swój zespół i uczniów"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Brak powiadomień o przeczytaniu"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Brak nieprzeczytanych powiadomień"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6579,7 +6579,7 @@ msgstr "Brak {0}"
 #: frontend/src/components/Layouts/EmptyStateLayout.vue:40
 #: frontend/src/components/Layouts/pages/ListPage.vue:256
 msgid "No {0} Found"
-msgstr ""
+msgstr "Nie znaleziono {0}"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:88
 msgid "No {0} match this filter"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Tutaj pojawią się powiadomienia, które przeczytałeś."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10618,7 +10618,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:340
 #: frontend/src/pages/Programs/Programs.vue:257
 msgid "Unpublished"
-msgstr ""
+msgstr "Niepublikowane"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
@@ -10665,11 +10665,11 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Upcoming"
-msgstr ""
+msgstr "Nadchodzące"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr ""
+msgstr "Nadchodzące grupy"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Wszyscy jesteście zajęci! Sprawdź później aktualizacje."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr ""
 msgid "{} Published"
 msgstr "{} Opublikowany"
 
+msgid "Welcome to {0}"
+msgstr "Witamy w {0}"
+
+msgid "Continue"
+msgstr "Kontynuuj"
+
+msgid "Getting started"
+msgstr "Rozpoczęcie"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} kroków"
+
+msgid "{0}/{1} steps completed"
+msgstr "Ukończono {0}/{1} kroków"
+
+msgid "{0}% completed"
+msgstr "Ukończono {0}%."
+
+msgid "You are all set"
+msgstr "Wszystko gotowe"
+
+msgid "All steps are completed successfully"
+msgstr "Wszystkie kroki zostały pomyślnie zakończone"
+
+msgid "Start now"
+msgstr "Zacznij teraz"
+
+msgid "Reset all"
+msgstr "Zresetuj wszystko"
+
+msgid "Skip all"
+msgstr "Pomiń wszystko"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Najpierw musisz ukończyć „{0}”."
+
+msgid "Reset onboarding steps"
+msgstr "Zresetuj kroki wprowadzające"
+
+msgid "Help centre"
+msgstr "Centrum pomocy"
+
+msgid "Search articles..."
+msgstr "Wyszukaj artykuły..."
+
+msgid "All articles"
+msgstr "Wszystkie artykuły"
+
+msgid "Active Batches"
+msgstr "Aktywne grupy"
+
+msgid "Archived Batches"
+msgstr "Zarchiwizowane grupy"
+
+msgid "Unpublished Batches"
+msgstr "Nieopublikowane grupy"
+
+msgid "Enrolled Batches"
+msgstr "Grupy, do których dołączono"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Wkrótce pojawią się tu nowe doświadczenia edukacyjne."
+
+msgid "No batches found"
+msgstr "Nie znaleziono grup"

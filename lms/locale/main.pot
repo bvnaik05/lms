@@ -208,6 +208,10 @@ msgstr ""
 msgid "Active"
 msgstr ""
 
+#: frontend/src/pages/Batches/Batches.vue:362
+msgid "Active Batches"
+msgstr ""
+
 #: frontend/src/pages/Statistics.vue:19
 msgid "Active Members"
 msgstr ""
@@ -708,6 +712,10 @@ msgstr ""
 
 #: frontend/src/pages/Batches/Batches.vue:338
 msgid "Archived"
+msgstr ""
+
+#: frontend/src/pages/Batches/Batches.vue:364
+msgid "Archived Batches"
 msgstr ""
 
 #: frontend/src/components/UpcomingEvaluations.vue:218
@@ -3470,6 +3478,10 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:342
 #: frontend/src/pages/Programs/StudentPrograms.vue:98
 msgid "Enrolled"
+msgstr ""
+
+#: frontend/src/pages/Batches/Batches.vue:367
+msgid "Enrolled Batches"
 msgstr ""
 
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
@@ -6346,6 +6358,10 @@ msgstr ""
 msgid "New comment in batch {0}"
 msgstr ""
 
+#: frontend/src/pages/Batches/Batches.vue:12
+msgid "New learning experiences will appear here soon."
+msgstr ""
+
 #: frontend/src/components/Quiz/QuestionDialog.vue:5
 #: frontend/src/pages/Forms/QuizForm.vue:73
 #: frontend/src/pages/Forms/QuizForm.vue:149
@@ -6409,6 +6425,10 @@ msgstr ""
 
 #: frontend/src/pages/Batches/components/Assessments.vue:48
 msgid "No assessments added to this batch"
+msgstr ""
+
+#: frontend/src/pages/Batches/Batches.vue:11
+msgid "No batches found"
 msgstr ""
 
 #: lms/lms/doctype/lms_live_class/lms_live_class.py:80
@@ -10618,6 +10638,10 @@ msgstr ""
 msgid "Unpublished"
 msgstr ""
 
+#: frontend/src/pages/Batches/Batches.vue:365
+msgid "Unpublished Batches"
+msgstr ""
+
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
 msgstr ""
@@ -12364,4 +12388,3 @@ msgstr ""
 #: lms/lms/workspace/learning/learning.json
 msgid "{} Published"
 msgstr ""
-

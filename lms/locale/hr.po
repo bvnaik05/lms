@@ -477,7 +477,7 @@ msgstr "Sve"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr "Sve Grupe"
+msgstr "Sve grupe"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr "Značka {0} nije pronađena"
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Grupa"
+msgstr "grupa"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Grupa:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "Grupe"
+msgstr "grupe"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -10669,7 +10669,7 @@ msgstr "Nadolazeći"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "Nadolazeće Grupe"
+msgstr "Nadolazeće grupe"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -12367,3 +12367,68 @@ msgstr "{} Prošlo"
 msgid "{} Published"
 msgstr "{} Objavljeno"
 
+msgid "Welcome to {0}"
+msgstr "Dobro došli u {0}"
+
+msgid "Continue"
+msgstr "nastavi"
+
+msgid "Getting started"
+msgstr "Početak rada"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} koraka"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} koraka dovršeno"
+
+msgid "{0}% completed"
+msgstr "{0}% dovršeno"
+
+msgid "You are all set"
+msgstr "Spremni ste"
+
+msgid "All steps are completed successfully"
+msgstr "Svi su koraci uspješno dovršeni"
+
+msgid "Start now"
+msgstr "Počni sada"
+
+msgid "Reset all"
+msgstr "Resetiraj sve"
+
+msgid "Skip all"
+msgstr "Preskoči sve"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Prvo morate dovršiti \"{0}\"."
+
+msgid "Reset onboarding steps"
+msgstr "Poništi korake za integraciju"
+
+msgid "Help centre"
+msgstr "Centar za pomoć"
+
+msgid "Search articles..."
+msgstr "Pretraživanje članaka..."
+
+msgid "All articles"
+msgstr "Svi članci"
+
+msgid "Active Batches"
+msgstr "Aktivne grupe"
+
+msgid "Archived Batches"
+msgstr "Arhivirane grupe"
+
+msgid "Unpublished Batches"
+msgstr "Neobjavljene grupe"
+
+msgid "Enrolled Batches"
+msgstr "Grupe u koje ste upisani"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Ovdje će se uskoro pojaviti nova iskustva učenja."
+
+msgid "No batches found"
+msgstr "Nije pronađena nijedna grupa"

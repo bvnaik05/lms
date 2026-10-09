@@ -263,7 +263,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:488
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "உங்கள் தொகுப்பில் படிப்புகளைச் சேர்க்கவும்"
 
 #: frontend/src/components/Modals/QuizInVideo.vue:5
 msgid "Add quiz to this video"
@@ -271,7 +271,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:467
 msgid "Add students to your batch"
-msgstr ""
+msgstr "உங்கள் தொகுப்பில் மாணவர்களைச் சேர்க்கவும்"
 
 #: frontend/src/components/Notes/InlineLessonMenu.vue:39
 msgid "Add to Notes"
@@ -287,11 +287,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:400
 msgid "Add your first chapter"
-msgstr ""
+msgstr "உங்கள் முதல் அத்தியாயத்தைச் சேர்க்கவும்"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:416
 msgid "Add your first lesson"
-msgstr ""
+msgstr "உங்கள் முதல் பாடத்தைச் சேர்க்கவும்"
 
 #. Label of the address (Link) field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/Transactions/TransactionDetails.vue:103
@@ -321,11 +321,11 @@ msgstr ""
 #. Name of a role
 #: frontend/src/pages/Batches.vue:319 lms/lms/doctype/lms_badge/lms_badge.json
 msgid "All"
-msgstr ""
+msgstr "அனைத்து"
 
 #: frontend/src/pages/Batches.vue:68
 msgid "All Batches"
-msgstr ""
+msgstr "அனைத்து குழுக்கள்"
 
 #: frontend/src/pages/Courses.vue:57 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -488,7 +488,7 @@ msgstr ""
 
 #: frontend/src/pages/Batches.vue:329
 msgid "Archived"
-msgstr ""
+msgstr "காப்பகப்படுத்தப்பட்டது"
 
 #: frontend/src/components/UpcomingEvaluations.vue:206
 msgid "Are you sure you want to cancel this evaluation? This action cannot be undone."
@@ -764,7 +764,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr ""
+msgstr "குழு"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -881,7 +881,7 @@ msgstr ""
 #: frontend/src/pages/Batches.vue:350 frontend/src/pages/Batches.vue:357
 #: lms/lms/doctype/lms_settings/lms_settings.json lms/www/lms.py:121
 msgid "Batches"
-msgstr ""
+msgstr "குழுக்கள்"
 
 #: lms/templates/emails/batch_confirmation.html:33
 #: lms/templates/emails/batch_start_reminder.html:31
@@ -1244,7 +1244,7 @@ msgstr ""
 
 #: frontend/src/components/Settings/Categories.vue:27
 msgid "Close"
-msgstr ""
+msgstr "மூடு"
 
 #. Option for the 'Status' (Select) field in DocType 'Job Opportunity'
 #. Option in a Select field in the job-opportunity Web Form
@@ -1275,7 +1275,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:155
 msgid "Collapse"
-msgstr ""
+msgstr "சுருக்கு"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -1868,15 +1868,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:457
 msgid "Create your first batch"
-msgstr ""
+msgstr "உங்கள் முதல் தொகுப்பை உருவாக்கவும்"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:388
 msgid "Create your first course"
-msgstr ""
+msgstr "உங்கள் முதல் பாடத்தை உருவாக்கவும்"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:435
 msgid "Create your first quiz"
-msgstr ""
+msgstr "உங்கள் முதல் வினாடி வினாவை உருவாக்கவும்"
 
 #: frontend/src/pages/Assignments.vue:178 frontend/src/pages/Courses.vue:355
 msgid "Created"
@@ -2427,7 +2427,7 @@ msgstr ""
 #: frontend/src/pages/Batches.vue:332 frontend/src/pages/Courses.vue:358
 #: frontend/src/pages/Programs/StudentPrograms.vue:96
 msgid "Enrolled"
-msgstr ""
+msgstr "பதிவுசெய்யப்பட்டது"
 
 #: frontend/src/components/CourseCard.vue:62
 #: frontend/src/components/CourseCardOverlay.vue:138
@@ -2639,7 +2639,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:155
 msgid "Expand"
-msgstr ""
+msgstr "விரிவாக்கு"
 
 #. Label of the expected_output (Data) field in DocType 'LMS Test Case'
 #. Label of the expected_output (Data) field in DocType 'LMS Test Case
@@ -3025,7 +3025,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:141
 msgid "Help"
-msgstr ""
+msgstr "உதவி"
 
 #: lms/templates/courses_created.html:15
 msgid "Help others learn something new by creating a course."
@@ -3324,7 +3324,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:446
 msgid "Invite your team and students"
-msgstr ""
+msgstr "உங்கள் குழு மற்றும் மாணவர்களை அழைக்கவும்"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -4012,7 +4012,7 @@ msgstr ""
 
 #: frontend/src/pages/Notifications.vue:12
 msgid "Mark all as read"
-msgstr ""
+msgstr "அனைத்தையும் படித்ததாகக் குறிக்கவும்"
 
 #. Label of the marks (Int) field in DocType 'LMS Quiz Question'
 #. Label of the marks (Int) field in DocType 'LMS Quiz Result'
@@ -4683,7 +4683,7 @@ msgstr ""
 #. Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
 msgid "Notifications"
-msgstr ""
+msgstr "அறிவிப்புகள்"
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -6247,7 +6247,7 @@ msgstr ""
 
 #: frontend/src/pages/PersonaForm.vue:51 lms/templates/onboarding_header.html:6
 msgid "Skip"
-msgstr ""
+msgstr "தவிர்க்கவும்"
 
 #: lms/lms/doctype/course_evaluator/course_evaluator.py:57
 msgid "Slot Times are overlapping for some schedules."
@@ -7058,7 +7058,7 @@ msgstr ""
 
 #: frontend/src/pages/Batches.vue:330 frontend/src/pages/Courses.vue:356
 msgid "Unpublished"
-msgstr ""
+msgstr "வெளியிடப்படவில்லை"
 
 #: frontend/src/components/Modals/EditCoverImage.vue:60
 #: frontend/src/components/UnsplashImageBrowser.vue:54
@@ -7082,11 +7082,11 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Upcoming"
-msgstr ""
+msgstr "வரவிருக்கிறது"
 
 #: frontend/src/pages/Batch.vue:191 frontend/src/pages/Home/AdminHome.vue:34
 msgid "Upcoming Batches"
-msgstr ""
+msgstr "வரவிருக்கும் குழுக்கள்"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:92 lms/templates/upcoming_evals.html:3
@@ -7943,3 +7943,95 @@ msgstr ""
 msgid "{} Published"
 msgstr ""
 
+msgid "Welcome to {0}"
+msgstr "{0}க்கு வரவேற்கிறோம்"
+
+msgid "Continue"
+msgstr "தொடரவும்"
+
+msgid "Reset"
+msgstr "மீட்டமை"
+
+msgid "Unread"
+msgstr "படிக்காதது"
+
+msgid "Read"
+msgstr "படிக்கவும்"
+
+msgid "No unread notifications"
+msgstr "படிக்காத அறிவிப்புகள் இல்லை"
+
+msgid "No read notifications"
+msgstr "வாசிப்பு அறிவிப்புகள் இல்லை"
+
+msgid "You're all caught up! Check back later for updates."
+msgstr "நீங்கள் அனைவரும் பிடித்துவிட்டீர்கள்! புதுப்பிப்புகளுக்கு பிறகு பார்க்கவும்."
+
+msgid "Notifications you have read will appear here."
+msgstr "நீங்கள் படித்த அறிவிப்புகள் இங்கே தோன்றும்."
+
+msgid "Getting started"
+msgstr "தொடங்குதல்"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} படிகள்"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} படிகள் முடிந்தது"
+
+msgid "{0}% completed"
+msgstr "{0}% முடிந்தது"
+
+msgid "You are all set"
+msgstr "நீங்கள் தயாராகிவிட்டீர்கள்"
+
+msgid "All steps are completed successfully"
+msgstr "அனைத்து நடவடிக்கைகளும் வெற்றிகரமாக முடிக்கப்பட்டுள்ளன"
+
+msgid "Start now"
+msgstr "இப்போதே தொடங்குங்கள்"
+
+msgid "Reset all"
+msgstr "அனைத்தையும் மீட்டமைக்கவும்"
+
+msgid "Skip all"
+msgstr "அனைத்தையும் தவிர்க்கவும்"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "முதலில் \"{0}\" ஐ முடிக்க வேண்டும்."
+
+msgid "Reset onboarding steps"
+msgstr "ஆன்போர்டிங் படிகளை மீட்டமைக்கவும்"
+
+msgid "Help centre"
+msgstr "உதவி மையம்"
+
+msgid "Search articles..."
+msgstr "கட்டுரைகளைத் தேடு..."
+
+msgid "All articles"
+msgstr "அனைத்து கட்டுரைகளும்"
+
+msgid "Active"
+msgstr "செயலில்"
+
+msgid "Active Batches"
+msgstr "செயலில் உள்ள குழுக்கள்"
+
+msgid "Archived Batches"
+msgstr "காப்பகப்படுத்தப்பட்ட குழுக்கள்"
+
+msgid "Unpublished Batches"
+msgstr "வெளியிடப்படாத குழுக்கள்"
+
+msgid "Enrolled Batches"
+msgstr "நீங்கள் சேர்ந்துள்ள குழுக்கள்"
+
+msgid "No {0} Found"
+msgstr "{0} இல்லை"
+
+msgid "New learning experiences will appear here soon."
+msgstr "புதிய கற்றல் அனுபவங்கள் விரைவில் இங்கு தோன்றும்."
+
+msgid "No batches found"
+msgstr "குழுக்கள் எதுவும் இல்லை"

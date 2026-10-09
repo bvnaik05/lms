@@ -1042,7 +1042,7 @@ msgstr "Abzeichen {0} nicht gefunden"
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Charge"
+msgstr "Gruppe"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1811,7 +1811,7 @@ msgstr "Zusammenarbeitspräferenz"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "Zuklappen"
+msgstr "Einklappen"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -3800,7 +3800,7 @@ msgstr "Übung erfolgreich gelöscht"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "Erweitern"
+msgstr "Ausklappen"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -6530,7 +6530,7 @@ msgstr "Noch keine Quiz hinzugefügt."
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Keine Lesebenachrichtigungen"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Keine ungelesenen Benachrichtigungen"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Benachrichtigungen, die Sie gelesen haben, werden hier angezeigt."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10669,7 +10669,7 @@ msgstr "Bevorstehend"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "Bevorstehende Kursdurchläufe"
+msgstr "Bevorstehende Gruppen"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr "Sie sind großartig,"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Ihr seid alle beschäftigt! Schauen Sie später noch einmal vorbei, um Updates zu erhalten."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr "{} Bestanden"
 msgid "{} Published"
 msgstr ""
 
+msgid "Welcome to {0}"
+msgstr "Willkommen bei {0}"
+
+msgid "Continue"
+msgstr "Weiter"
+
+msgid "Getting started"
+msgstr "Erste Schritte"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} Schritte"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} Schritte abgeschlossen"
+
+msgid "{0}% completed"
+msgstr "{0} % abgeschlossen"
+
+msgid "You are all set"
+msgstr "Sie sind bereit"
+
+msgid "All steps are completed successfully"
+msgstr "Alle Schritte wurden erfolgreich abgeschlossen"
+
+msgid "Start now"
+msgstr "Beginnen Sie jetzt"
+
+msgid "Reset all"
+msgstr "Alles zurücksetzen"
+
+msgid "Skip all"
+msgstr "Alles überspringen"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Sie müssen zuerst „{0}“ ausfüllen."
+
+msgid "Reset onboarding steps"
+msgstr "Onboarding-Schritte zurücksetzen"
+
+msgid "Help centre"
+msgstr "Hilfecenter"
+
+msgid "Search articles..."
+msgstr "Artikel durchsuchen..."
+
+msgid "All articles"
+msgstr "Alle Artikel"
+
+msgid "Active Batches"
+msgstr "Aktive Gruppen"
+
+msgid "Archived Batches"
+msgstr "Archivierte Gruppen"
+
+msgid "Unpublished Batches"
+msgstr "Unveröffentlichte Gruppen"
+
+msgid "Enrolled Batches"
+msgstr "Gruppen, für die Sie angemeldet sind"
+
+msgid "New learning experiences will appear here soon."
+msgstr "In Kürze werden hier neue Lernerfahrungen erscheinen."
+
+msgid "No batches found"
+msgstr "Keine Gruppen gefunden"

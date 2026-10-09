@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "अपने बैच में पाठ्यक्रम जोड़ें"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "छात्रों को अपने बैच में जोड़ें"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "अपना पहला अध्याय जोड़ें"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "अपना पहला पाठ जोड़ें"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -710,7 +710,7 @@ msgstr ""
 
 #: frontend/src/pages/Batches/Batches.vue:338
 msgid "Archived"
-msgstr ""
+msgstr "संग्रहीत"
 
 #: frontend/src/components/UpcomingEvaluations.vue:218
 msgid "Are you sure you want to cancel this evaluation? This action cannot be undone."
@@ -1811,7 +1811,7 @@ msgstr "सहयोग वरीयता"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "गिर जाना"
+msgstr "समेटें"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -2628,15 +2628,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "अपना पहला बैच बनाएं"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
-msgstr ""
+msgstr "अपना पहला कोर्स बनाएं"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "अपनी पहली प्रश्नोत्तरी बनाएं"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -3472,7 +3472,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:342
 #: frontend/src/pages/Programs/StudentPrograms.vue:98
 msgid "Enrolled"
-msgstr ""
+msgstr "नामांकित"
 
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
 #: frontend/src/pages/Courses/CourseDashboard.vue:417
@@ -3800,7 +3800,7 @@ msgstr "अभ्यास सफलतापूर्वक हटा दिय
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "बढ़ाना"
+msgstr "विस्तार करें"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:356
 msgid "Invite your team and students"
-msgstr ""
+msgstr "अपनी टीम और छात्रों को आमंत्रित करें"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "कोई पढ़ने योग्य सूचना नहीं"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "कोई अपठित सूचना नहीं"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "आपके द्वारा पढ़ी गई सूचनाएं यहां दिखाई देंगी."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -8378,7 +8378,7 @@ msgstr ""
 #: frontend/src/components/ProgrammingExercises/ExerciseWorkspace.vue:14
 #: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmission.vue:497
 msgid "Reset"
-msgstr ""
+msgstr "रीसेट करें"
 
 #: frontend/src/pages/Forms/QuizForm.vue:331
 msgid "Restrict when learners can start and submit this quiz."
@@ -9209,7 +9209,7 @@ msgstr "कौशल"
 
 #: lms/templates/onboarding_header.html:6
 msgid "Skip"
-msgstr ""
+msgstr "छोड़ें"
 
 #: frontend/src/pages/Forms/PersonaForm.vue:19
 msgid "Skip for now"
@@ -10618,11 +10618,11 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:340
 #: frontend/src/pages/Programs/Programs.vue:257
 msgid "Unpublished"
-msgstr ""
+msgstr "अप्रकाशित"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
-msgstr ""
+msgstr "अपठित"
 
 #: lms/lms/course_import_export.py:1056
 msgid "Unsafe file path detected"
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "आप सब फंस गए हैं! अपडेट के लिए वापिस देखें।"
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr ""
 msgid "{} Published"
 msgstr "प्रकाशित"
 
+msgid "Welcome to {0}"
+msgstr "{0} में आपका स्वागत है"
+
+msgid "Continue"
+msgstr "जारी रखें"
+
+msgid "Getting started"
+msgstr "आरंभ करना"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} कदम"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} चरण पूरे हुए"
+
+msgid "{0}% completed"
+msgstr "{0}% पूरा हुआ"
+
+msgid "You are all set"
+msgstr "आप पूरी तरह तैयार हैं"
+
+msgid "All steps are completed successfully"
+msgstr "सभी चरण सफलतापूर्वक पूरे हो गए हैं"
+
+msgid "Start now"
+msgstr "अभी प्रारंभ करें"
+
+msgid "Reset all"
+msgstr "सभी रीसेट करें"
+
+msgid "Skip all"
+msgstr "सब छोड़ें"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "आपको पहले \"{0}\" पूरा करना होगा."
+
+msgid "Reset onboarding steps"
+msgstr "ऑनबोर्डिंग चरण रीसेट करें"
+
+msgid "Help centre"
+msgstr "सहायता केंद्र"
+
+msgid "Search articles..."
+msgstr "लेख खोजें..."
+
+msgid "All articles"
+msgstr "सभी लेख"
+
+msgid "Active Batches"
+msgstr "सक्रिय बैच"
+
+msgid "Archived Batches"
+msgstr "संग्रहीत बैच"
+
+msgid "Unpublished Batches"
+msgstr "अप्रकाशित बैच"
+
+msgid "Enrolled Batches"
+msgstr "जिन बैचों में आपने नामांकन किया है"
+
+msgid "New learning experiences will appear here soon."
+msgstr "नए सीखने के अनुभव जल्द ही यहां दिखाई देंगे।"
+
+msgid "No batches found"
+msgstr "कोई बैच नहीं मिला"

@@ -477,7 +477,7 @@ msgstr "Hammasi"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr "Barcha partiyalar"
+msgstr "Barcha guruhlar"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr "{0} nishoni topilmadi"
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Partiya"
+msgstr "guruh"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Partiya:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "Partiyalar"
+msgstr "guruhlar"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1811,7 +1811,7 @@ msgstr "Hamkorlik afzalligi"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "Yig'ish"
+msgstr "Yig‘ish"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -10669,7 +10669,7 @@ msgstr "Yaqinlashib kelayotgan"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "Kelgusi partiyalar"
+msgstr "Kelgusi guruhlar"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -12367,3 +12367,68 @@ msgstr "{} O'tdi"
 msgid "{} Published"
 msgstr "{} Nashr qilindi"
 
+msgid "Welcome to {0}"
+msgstr "{0} ga xush kelibsiz"
+
+msgid "Continue"
+msgstr "Davom eting"
+
+msgid "Getting started"
+msgstr "Boshlanmoqda"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} qadam"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} qadam bajarildi"
+
+msgid "{0}% completed"
+msgstr "{0}% bajarildi"
+
+msgid "You are all set"
+msgstr "Hammangiz tayyor"
+
+msgid "All steps are completed successfully"
+msgstr "Barcha qadamlar muvaffaqiyatli yakunlandi"
+
+msgid "Start now"
+msgstr "Hozir boshlang"
+
+msgid "Reset all"
+msgstr "Hammasini tiklash"
+
+msgid "Skip all"
+msgstr "Hammasini o'tkazib yuborish"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Avval “{0}” bandini toʻldirishingiz kerak."
+
+msgid "Reset onboarding steps"
+msgstr "O'rnatish bosqichlarini qayta o'rnating"
+
+msgid "Help centre"
+msgstr "Yordam markazi"
+
+msgid "Search articles..."
+msgstr "Maqolalar qidirish..."
+
+msgid "All articles"
+msgstr "Barcha maqolalar"
+
+msgid "Active Batches"
+msgstr "Faol guruhlar"
+
+msgid "Archived Batches"
+msgstr "Arxivlangan guruhlar"
+
+msgid "Unpublished Batches"
+msgstr "Nashr qilinmagan guruhlar"
+
+msgid "Enrolled Batches"
+msgstr "Siz ro‘yxatdan o‘tgan guruhlar"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Tez orada yangi o'quv tajribalari paydo bo'ladi."
+
+msgid "No batches found"
+msgstr "Guruhlar topilmadi"

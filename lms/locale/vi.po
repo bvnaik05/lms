@@ -343,7 +343,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:397
 msgid "Add courses to your batch"
-msgstr ""
+msgstr "Thêm các khóa học vào lô của bạn"
 
 #: frontend/src/components/Settings/Sidebar/SidebarPageModal.vue:4
 msgid "Add link to sidebar"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:376
 msgid "Add students to your batch"
-msgstr ""
+msgstr "Thêm sinh viên vào nhóm của bạn"
 
 #: frontend/src/components/Courses/CourseDetailsSection.vue:31
 #: frontend/src/components/Courses/CourseDetailsSection.vue:51
@@ -397,11 +397,11 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:305
 msgid "Add your first chapter"
-msgstr ""
+msgstr "Thêm chương đầu tiên của bạn"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:325
 msgid "Add your first lesson"
-msgstr ""
+msgstr "Thêm bài học đầu tiên của bạn"
 
 #: frontend/src/pages/Forms/QuizForm.vue:142
 msgid "Add your first question and edit it right here. Choices, correct answers and explanations all in one card."
@@ -477,7 +477,7 @@ msgstr "Tất Cả"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr ""
+msgstr "Tất cả các đợt học"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Lô"
+msgstr "đợt học"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr ""
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr ""
+msgstr "các đợt học"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -2628,15 +2628,15 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:366
 msgid "Create your first batch"
-msgstr ""
+msgstr "Tạo đợt đầu tiên của bạn"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:293
 msgid "Create your first course"
-msgstr ""
+msgstr "Tạo khóa học đầu tiên của bạn"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:345
 msgid "Create your first quiz"
-msgstr ""
+msgstr "Tạo bài kiểm tra đầu tiên của bạn"
 
 #: frontend/src/components/Settings/Categories.vue:227
 #: frontend/src/pages/Courses/Courses.vue:339
@@ -4817,7 +4817,7 @@ msgstr ""
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:356
 msgid "Invite your team and students"
-msgstr ""
+msgstr "Mời nhóm và sinh viên của bạn"
 
 #. Label of the is_correct (Check) field in DocType 'LMS Option'
 #. Label of the is_correct_1 (Check) field in DocType 'LMS Question'
@@ -6530,7 +6530,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:142
 msgid "No read notifications"
-msgstr ""
+msgstr "Không có thông báo đã đọc"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:84
 #: frontend/src/components/Settings/Raven/WorkspaceMembers.vue:45
@@ -6570,7 +6570,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:141
 msgid "No unread notifications"
-msgstr ""
+msgstr "Không có thông báo chưa đọc"
 
 #: lms/templates/course_list.html:13
 msgid "No {0}"
@@ -6579,7 +6579,7 @@ msgstr "Không {0}"
 #: frontend/src/components/Layouts/EmptyStateLayout.vue:40
 #: frontend/src/components/Layouts/pages/ListPage.vue:256
 msgid "No {0} Found"
-msgstr ""
+msgstr "Không tìm thấy {0}"
 
 #: frontend/src/components/Layouts/settings/desktop/SettingsList.vue:88
 msgid "No {0} match this filter"
@@ -6708,7 +6708,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:148
 msgid "Notifications you have read will appear here."
-msgstr ""
+msgstr "Thông báo bạn đã đọc sẽ xuất hiện ở đây."
 
 #: lms/lms/widgets/NoPreviewModal.html:30
 msgid "Notify me when available"
@@ -10618,7 +10618,7 @@ msgstr ""
 #: frontend/src/pages/Courses/Courses.vue:340
 #: frontend/src/pages/Programs/Programs.vue:257
 msgid "Unpublished"
-msgstr ""
+msgstr "Chưa được xuất bản"
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:124
 msgid "Unread"
@@ -10665,11 +10665,11 @@ msgstr ""
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_course/lms_course.json
 msgid "Upcoming"
-msgstr ""
+msgstr "Sắp tới"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr ""
+msgstr "Các đợt học sắp tới"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -11590,7 +11590,7 @@ msgstr ""
 
 #: frontend/src/components/Notifications/NotificationPanel.vue:147
 msgid "You're all caught up! Check back later for updates."
-msgstr ""
+msgstr "Bạn đã bắt kịp tất cả! Kiểm tra lại sau để biết thông tin cập nhật."
 
 #: lms/templates/emails/batch_start_reminder_recorded.html:6
 msgid "You're enrolled and all set! The course content is ready, so you can start learning right away and go at your own pace."
@@ -12367,3 +12367,68 @@ msgstr ""
 msgid "{} Published"
 msgstr ""
 
+msgid "Welcome to {0}"
+msgstr "Chào mừng đến với {0}"
+
+msgid "Continue"
+msgstr "Tiếp tục"
+
+msgid "Getting started"
+msgstr "Bắt đầu"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} bước"
+
+msgid "{0}/{1} steps completed"
+msgstr "Đã hoàn thành {0}/{1} bước"
+
+msgid "{0}% completed"
+msgstr "{0}% đã hoàn thành"
+
+msgid "You are all set"
+msgstr "Bạn đã sẵn sàng"
+
+msgid "All steps are completed successfully"
+msgstr "Tất cả các bước được hoàn thành thành công"
+
+msgid "Start now"
+msgstr "Bắt đầu ngay bây giờ"
+
+msgid "Reset all"
+msgstr "Đặt lại tất cả"
+
+msgid "Skip all"
+msgstr "Bỏ qua tất cả"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Trước tiên, bạn cần hoàn thành \"{0}\"."
+
+msgid "Reset onboarding steps"
+msgstr "Đặt lại các bước giới thiệu"
+
+msgid "Help centre"
+msgstr "Trung tâm trợ giúp"
+
+msgid "Search articles..."
+msgstr "Tìm kiếm bài viết..."
+
+msgid "All articles"
+msgstr "Tất cả các bài viết"
+
+msgid "Active Batches"
+msgstr "Các đợt học đang hoạt động"
+
+msgid "Archived Batches"
+msgstr "Các đợt học đã lưu trữ"
+
+msgid "Unpublished Batches"
+msgstr "Các đợt học chưa xuất bản"
+
+msgid "Enrolled Batches"
+msgstr "Các đợt học bạn đã đăng ký"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Những trải nghiệm học tập mới sẽ sớm xuất hiện ở đây."
+
+msgid "No batches found"
+msgstr "Không tìm thấy đợt học nào"

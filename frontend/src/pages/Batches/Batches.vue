@@ -8,6 +8,8 @@
 		:has-next-page="batches.hasNextPage"
 		v-model:page-length="pageLength"
 		empty-name="Batches"
+		:empty-title="__('No batches found')"
+		:empty-description="__('New learning experiences will appear here soon.')"
 		empty-icon="lucide-users"
 		@load-more="batches.next()"
 	>
@@ -356,8 +358,15 @@ watch(batchTabs, (tabs) => {
 })
 
 const pageTitle = computed(() => {
-	const tab = batchTabs.value.find((t) => t.value === currentTab.value)
-	return __('{0} Batches').format(tab?.label)
+	const titles = {
+		active: __('Active Batches'),
+		upcoming: __('Upcoming Batches'),
+		archived: __('Archived Batches'),
+		unpublished: __('Unpublished Batches'),
+		all: __('All Batches'),
+		enrolled: __('Enrolled Batches'),
+	}
+	return titles[currentTab.value] || __('Batches')
 })
 
 const canCreateBatch = () => {

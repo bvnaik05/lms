@@ -477,7 +477,7 @@ msgstr "crwdns149250:0crwdne149250:0"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr "crwdns152262:0crwdne152262:0"
+msgstr "Ĉiuj grupoj"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr "crwdns197372:0{0}crwdne197372:0"
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "crwdns149346:0crwdne149346:0"
+msgstr "grupo"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "crwdns152469:0crwdne152469:0"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "crwdns149380:0crwdne149380:0"
+msgstr "grupoj"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -1811,7 +1811,7 @@ msgstr "crwdns149492:0crwdne149492:0"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Collapse"
-msgstr "crwdns154602:0crwdne154602:0"
+msgstr "Kunfaldi"
 
 #. Label of the college (Data) field in DocType 'User'
 #: lms/fixtures/custom_field.json
@@ -3800,7 +3800,7 @@ msgstr "crwdns164106:0crwdne164106:0"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "crwdns154608:0crwdne154608:0"
+msgstr "Malfaldi"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -10669,7 +10669,7 @@ msgstr "crwdns150900:0crwdne150900:0"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "crwdns150902:0crwdne150902:0"
+msgstr "Venontaj grupoj"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -12367,3 +12367,68 @@ msgstr "crwdns151112:0crwdne151112:0"
 msgid "{} Published"
 msgstr "crwdns151114:0crwdne151114:0"
 
+msgid "Welcome to {0}"
+msgstr "Bonvenon al {0}"
+
+msgid "Continue"
+msgstr "Daŭrigu"
+
+msgid "Getting started"
+msgstr "Komencante"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} paŝoj"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} paŝoj finitaj"
+
+msgid "{0}% completed"
+msgstr "{0}% kompletigitaj"
+
+msgid "You are all set"
+msgstr "Vi estas tute preta"
+
+msgid "All steps are completed successfully"
+msgstr "Ĉiuj paŝoj estas kompletigitaj sukcese"
+
+msgid "Start now"
+msgstr "Komencu nun"
+
+msgid "Reset all"
+msgstr "Restarigi ĉion"
+
+msgid "Skip all"
+msgstr "Preterpasi ĉiujn"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Vi devas unue kompletigi \"{0}\"."
+
+msgid "Reset onboarding steps"
+msgstr "Restarigi enŝipiĝajn paŝojn"
+
+msgid "Help centre"
+msgstr "Helpcentro"
+
+msgid "Search articles..."
+msgstr "Serĉu artikolojn..."
+
+msgid "All articles"
+msgstr "Ĉiuj artikoloj"
+
+msgid "Active Batches"
+msgstr "Aktivaj grupoj"
+
+msgid "Archived Batches"
+msgstr "Arkivitaj grupoj"
+
+msgid "Unpublished Batches"
+msgstr "Neeldonigitaj grupoj"
+
+msgid "Enrolled Batches"
+msgstr "Grupoj, al kiuj vi aliĝis"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Novaj lernaj spertoj aperos ĉi tie baldaŭ."
+
+msgid "No batches found"
+msgstr "Neniuj grupoj trovitaj"

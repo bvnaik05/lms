@@ -122,12 +122,19 @@
 					</a>
 				</Tooltip>
 			</div>
-			<SidebarCollapseToggle
+			<SidebarItem
 				class="mt-1"
-				:aria-label="
-					sidebarStore.isSidebarCollapsed ? __('Expand') : __('Collapse')
-				"
-			/>
+				:label="sidebarStore.isSidebarCollapsed ? __('Expand') : __('Collapse')"
+				:onClick="() => setCollapsed(!sidebarStore.isSidebarCollapsed)"
+			>
+				<template #prefix>
+					<span
+						class="lucide-panel-right-open size-4 text-ink-gray-6 transition-transform duration-300 ease-in-out"
+						:class="{ 'rotate-180': sidebarStore.isSidebarCollapsed }"
+						aria-hidden="true"
+					/>
+				</template>
+			</SidebarItem>
 		</div>
 		<HelpModal
 			data-testid="onboarding-help-modal"
@@ -160,7 +167,6 @@ import {
 	call,
 	Sidebar,
 	SidebarCard,
-	SidebarCollapseToggle,
 	SidebarItem,
 	SidebarSection,
 	Tooltip,

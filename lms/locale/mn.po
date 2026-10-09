@@ -477,7 +477,7 @@ msgstr "Бүгд"
 
 #: frontend/src/pages/Batches/Batches.vue:4
 msgid "All Batches"
-msgstr "Бүх багцууд"
+msgstr "Бүх сургалтын бүлгүүд"
 
 #: frontend/src/pages/Courses/Courses.vue:4 lms/lms/widgets/BreadCrumb.html:3
 msgid "All Courses"
@@ -1042,7 +1042,7 @@ msgstr "{0} тэмдэг олдсонгүй"
 #: lms/lms/doctype/lms_certificate_request/lms_certificate_request.json
 #: lms/lms/doctype/lms_live_class/lms_live_class.json
 msgid "Batch"
-msgstr "Багц"
+msgstr "сургалтын бүлэг"
 
 #. Label of the batch_confirmation_template (Link) field in DocType 'LMS
 #. Settings'
@@ -1196,7 +1196,7 @@ msgstr "Багц:"
 #: frontend/src/pages/Batches/Batches.vue:360
 #: lms/workspace_sidebar/learning.json lms/www/_lms.py:134
 msgid "Batches"
-msgstr "Багцууд"
+msgstr "сургалтын бүлгүүд"
 
 #. Label of the batches (Check) field in DocType 'LMS Settings'
 #: lms/lms/doctype/lms_settings/lms_settings.json
@@ -3800,7 +3800,7 @@ msgstr "Дасгалыг амжилттай устгасан"
 
 #: frontend/src/components/Sidebar/AppSidebar.vue:118
 msgid "Expand"
-msgstr "Өргөжүүлэх"
+msgstr "Дэлгэх"
 
 #: frontend/src/components/ProgrammingExercises/ExerciseTestCases.vue:47
 msgid "Expected"
@@ -10669,7 +10669,7 @@ msgstr "Удахгүй болох"
 
 #: frontend/src/pages/Home/AdminHome.vue:111
 msgid "Upcoming Batches"
-msgstr "Удахгүй гарах багцууд"
+msgstr "Удахгүй эхлэх сургалтын бүлгүүд"
 
 #: frontend/src/components/UpcomingEvaluations.vue:5
 #: frontend/src/pages/Home/AdminHome.vue:6 lms/templates/upcoming_evals.html:3
@@ -12367,3 +12367,68 @@ msgstr "{} тэнцсэн"
 msgid "{} Published"
 msgstr "{} Нийтлэгдсэн"
 
+msgid "Welcome to {0}"
+msgstr "{0}-д тавтай морил"
+
+msgid "Continue"
+msgstr "Үргэлжлүүлэх"
+
+msgid "Getting started"
+msgstr "Эхлэх"
+
+msgid "{0}/{1} steps"
+msgstr "{0}/{1} алхам"
+
+msgid "{0}/{1} steps completed"
+msgstr "{0}/{1} алхам дууссан"
+
+msgid "{0}% completed"
+msgstr "{0}% дууссан"
+
+msgid "You are all set"
+msgstr "Та бүгд бэлэн байна"
+
+msgid "All steps are completed successfully"
+msgstr "Бүх алхам амжилттай дууссан"
+
+msgid "Start now"
+msgstr "Одоо эхэл"
+
+msgid "Reset all"
+msgstr "Бүгдийг дахин тохируулах"
+
+msgid "Skip all"
+msgstr "Бүгдийг алгасах"
+
+msgid "You need to complete \"{0}\" first."
+msgstr "Та эхлээд \"{0}\"-г бөглөх хэрэгтэй."
+
+msgid "Reset onboarding steps"
+msgstr "Нэвтрэх алхмуудыг дахин тохируулна уу"
+
+msgid "Help centre"
+msgstr "Тусламжийн төв"
+
+msgid "Search articles..."
+msgstr "Нийтлэл хайх..."
+
+msgid "All articles"
+msgstr "Бүх нийтлэл"
+
+msgid "Active Batches"
+msgstr "Идэвхтэй сургалтын бүлгүүд"
+
+msgid "Archived Batches"
+msgstr "Архивлагдсан сургалтын бүлгүүд"
+
+msgid "Unpublished Batches"
+msgstr "Нийтлэгдээгүй сургалтын бүлгүүд"
+
+msgid "Enrolled Batches"
+msgstr "Бүртгүүлсэн сургалтын бүлгүүд"
+
+msgid "New learning experiences will appear here soon."
+msgstr "Удахгүй сурах шинэ туршлага энд гарч ирнэ."
+
+msgid "No batches found"
+msgstr "Сургалтын бүлэг олдсонгүй"
