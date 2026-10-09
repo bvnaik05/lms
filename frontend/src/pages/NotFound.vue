@@ -1,6 +1,6 @@
 <template>
 	<EmptyStateLayout
-		name="Page"
+		:name="__('Page')"
 		:title="__('Page not found')"
 		:description="
 			__('The page you are looking for does not exist or has moved')

@@ -89,7 +89,7 @@
 					</div>
 					<EmptyStateLayout
 						v-else
-						name="Notifications"
+						:name="__('Notifications')"
 						:title="emptyTitle"
 						:description="emptyDescription"
 						icon="lucide-bell"

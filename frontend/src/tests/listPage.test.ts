@@ -14,7 +14,15 @@ import { describe, expect, it, vi } from 'vitest'
 import { defineComponent, h, nextTick, ref } from 'vue'
 import { mount } from '@vue/test-utils'
 
-const { mobile } = vi.hoisted(() => ({ mobile: { value: false } }))
+const { mobile, passthrough } = vi.hoisted(() => ({
+	mobile: { value: false },
+	passthrough: (tag: string, testid?: string) => ({
+		inheritAttrs: false,
+		template: `<${tag} v-bind="$attrs"${
+			testid ? ` data-testid="${testid}"` : ''
+		}><slot /></${tag}>`,
+	}),
+}))
 
 vi.mock('@/utils/composables', async () => {
 	const { computed } = await import('vue')
@@ -22,13 +30,6 @@ vi.mock('@/utils/composables', async () => {
 		MOBILE_BREAKPOINT: 640,
 		useScreenSize: () => ({ isMobile: computed(() => mobile.value) }),
 	}
-})
-
-const passthrough = (tag: string, testid?: string) => ({
-	inheritAttrs: false,
-	template: `<${tag} v-bind="$attrs"${
-		testid ? ` data-testid="${testid}"` : ''
-	}><slot /></${tag}>`,
 })
 
 vi.mock('frappe-ui', () => ({
@@ -112,6 +113,8 @@ vi.mock('@/components/Layouts/EmptyStateLayout.vue', () =>
 
 vi.stubGlobal('__', (s: string) => s)
 
+import ListPage from '@/components/Layouts/pages/ListPage.vue'
+
 const ROWS = [
 	{ name: 'a', title: 'Alpha', modified: '01 Jan 2026' },
 	{ name: 'b', title: 'Beta', modified: '02 Jan 2026' },
@@ -122,15 +125,16 @@ const COLUMNS = [
 	{ label: 'Updated On', key: 'modified', width: 1, icon: 'lucide-clock' },
 ]
 
-async function mountListPage(props: Record<string, unknown> = {}, slots = {}) {
-	const { default: ListPage } = await import(
-		'@/components/Layouts/pages/ListPage.vue'
-	)
+async function mountListPage(
+	props: Record<string, unknown> = {},
+	slots = {},
+	translate: (message: string) => unknown = (message) => message
+) {
 	const wrapper = mount(ListPage, {
 		props: { breadcrumbs: [{ label: 'Courses' }], rows: ROWS, ...props },
 		slots,
 		global: {
-			mocks: { __: (s: string) => s },
+			mocks: { __: translate },
 			stubs: {
 				'router-link': { template: '<a><slot /></a>' },
 				// PageBody's mobile filter sheet teleports to body; without this
@@ -184,6 +188,30 @@ const headerBlock = (wrapper: any) =>
 	wrapper.get('[data-testid="page-header-block"]').element
 
 describe('ListPage', () => {
+	it('uses the translated list name in its live empty-state announcement', async () => {
+		const translate = (message: string) => {
+			if (message === 'No {0} Found') {
+				return {
+					format: (name: string) => `No se encontraron ${name}`,
+				}
+			}
+			return message
+		}
+
+		const wrapper = await mountListPage(
+			{ rows: [], loading: true, emptyName: 'cursos' },
+			{},
+			translate
+		)
+		await wrapper.setProps({ loading: false })
+		await new Promise((resolve) => setTimeout(resolve, 550))
+
+		expect(wrapper.get('[role="status"]').text()).toBe(
+			'No se encontraron cursos'
+		)
+		wrapper.unmount()
+	})
+
 	it('hands every row to the page card slot', async () => {
 		mobile.value = false
 		const wrapper = await mountListPage(

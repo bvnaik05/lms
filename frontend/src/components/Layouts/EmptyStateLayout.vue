@@ -24,6 +24,7 @@ import { computed } from 'vue'
 
 const props = withDefaults(
 	defineProps<{
+		/** Already translated by the caller, which knows the full source string. */
 		name: string
 		title?: string
 		description?: string
@@ -36,10 +37,10 @@ const props = withDefaults(
 	}
 )
 
-const translatedName = computed(() => __(props.name).toLowerCase())
+const normalizedName = computed(() => props.name.toLowerCase())
 
 const computedTitle = computed(
-	() => props.title || __('No {0} Found').format(translatedName.value)
+	() => props.title || __('No {0} Found').format(normalizedName.value)
 )
 
 const computedDescription = computed(
@@ -47,7 +48,7 @@ const computedDescription = computed(
 		props.description ||
 		__(
 			'There are no {0} currently. Keep an eye out, fresh learning experiences are on the way!'
-		).format(translatedName.value)
+		).format(normalizedName.value)
 )
 
 // The fractional widths are desktop-only. Unqualified, `w-4/12` is about 130px

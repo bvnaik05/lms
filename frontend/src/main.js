@@ -5,7 +5,7 @@ import App from './App.vue'
 import { createPinia } from 'pinia'
 import dayjs from '@/utils/dayjs'
 import { createDialog } from '@/utils/dialogs'
-import translationPlugin from './translation'
+import translationPlugin, { loadTranslations } from './translation'
 import { usersStore } from './stores/user'
 import { initSocket } from './socket'
 import { FrappeUI, setConfig, frappeRequest } from 'frappe-ui'
@@ -24,17 +24,26 @@ app.use(translationPlugin)
 registerDirectives(app)
 app.provide('$dayjs', dayjs)
 app.provide('$socket', initSocket())
-app.mount('#app')
 
-const { userResource, allUsers } = usersStore()
-app.provide('$user', userResource)
-app.provide('$allUsers', allUsers)
+async function mountApp() {
+	// Static labels are evaluated during the first render. Load the active
+	// language's catalog before mounting so labels cannot stay in English after
+	// the asynchronous translation request finishes.
+	await loadTranslations()
+	app.mount('#app')
 
-watch(userResource, () => {
-	if (userResource.data) {
-		app.use(telemetryPlugin, { app_name: 'lms' })
-	}
-})
+	const { userResource, allUsers } = usersStore()
+	app.provide('$user', userResource)
+	app.provide('$allUsers', allUsers)
 
-app.config.globalProperties.$user = userResource
-app.config.globalProperties.$dialog = createDialog
+	watch(userResource, () => {
+		if (userResource.data) {
+			app.use(telemetryPlugin, { app_name: 'lms' })
+		}
+	})
+
+	app.config.globalProperties.$user = userResource
+	app.config.globalProperties.$dialog = createDialog
+}
+
+mountApp()

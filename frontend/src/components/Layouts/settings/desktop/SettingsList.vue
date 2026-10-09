@@ -132,6 +132,7 @@ const props = withDefaults(
 		showNew?: boolean
 		newLabel?: string
 		showBack?: boolean
+		/** Already translated by the page or settings schema. */
 		emptyName?: string
 		emptyIcon?: string
 		/**

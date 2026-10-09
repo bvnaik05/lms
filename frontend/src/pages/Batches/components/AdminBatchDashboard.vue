@@ -86,7 +86,7 @@
 					</ResponsiveListView>
 					<div v-else class="min-h-[200px]">
 						<EmptyStateLayout
-							name="Students"
+							:name="__('Students')"
 							icon="lucide-users"
 							:title="
 								searchFilter

@@ -132,7 +132,12 @@ export const badgeAssignmentsSettingsPage: ListPage = {
 	},
 	columns,
 	searchable: true,
-	empty: { name: 'Badge Assignments', icon: 'lucide-award' },
+	empty: {
+		get name() {
+			return __('Badge Assignments')
+		},
+		icon: 'lucide-award',
+	},
 	create: { label: 'Assign', detail: form.forNew() },
 	rowDetail: form.forRecord(),
 }

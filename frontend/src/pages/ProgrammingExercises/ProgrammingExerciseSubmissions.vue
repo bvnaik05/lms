@@ -128,7 +128,7 @@ const config: SubmissionsConfig = {
 	},
 	title: 'Submissions',
 	pageTitle: 'Programming Exercise Submissions',
-	emptyName: 'Programming Exercise Submissions',
+	emptyName: __('Programming Exercise Submissions'),
 	emptyIcon: 'lucide-file-code',
 	transform: (rows: ListRow[]) =>
 		rows.map((row) => ({

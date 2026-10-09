@@ -695,7 +695,12 @@ export const emailAccountsPage: ListPage = {
 	},
 	columns,
 	searchable: true,
-	empty: { name: 'Email Accounts', icon: 'lucide-mail' },
+	empty: {
+		get name() {
+			return __('Email Accounts')
+		},
+		icon: 'lucide-mail',
+	},
 	emptyContent: { component: emptyState },
 	create: { detail: { kind: 'custom', component: form } },
 	rowDetail: { kind: 'custom', component: form },

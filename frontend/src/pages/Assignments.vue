@@ -10,7 +10,7 @@
 		:loading="assignments.list.loading"
 		:has-next-page="assignments.hasNextPage"
 		v-model:page-length="pageLength"
-		empty-name="Assignments"
+		:empty-name="__('Assignments')"
 		empty-icon="lucide-clipboard-list"
 		@load-more="assignments.next()"
 	>

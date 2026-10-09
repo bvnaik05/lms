@@ -295,7 +295,12 @@ export const badgesSettingsPage: ListPage = {
 	},
 	columns,
 	searchable: true,
-	empty: { name: 'Badges', icon: 'lucide-award' },
+	empty: {
+		get name() {
+			return __('Badges')
+		},
+		icon: 'lucide-award',
+	},
 	create: { detail: form.forNew() },
 	rowDetail: form.forRecord(),
 }

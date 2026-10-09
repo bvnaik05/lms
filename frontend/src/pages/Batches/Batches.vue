@@ -7,7 +7,7 @@
 		:total-count="batchCount"
 		:has-next-page="batches.hasNextPage"
 		v-model:page-length="pageLength"
-		empty-name="Batches"
+		:empty-name="__('Batches')"
 		:empty-title="__('No batches found')"
 		:empty-description="__('New learning experiences will appear here soon.')"
 		empty-icon="lucide-users"

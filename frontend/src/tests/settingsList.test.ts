@@ -65,11 +65,11 @@ vi.mock('@/components/Layouts/settings/desktop/SettingsLayout.vue', () => ({
 vi.mock('@/components/Layouts/EmptyStateLayout.vue', () => ({
 	default: {
 		props: ['name', 'title', 'description', 'icon'],
-		template: `<div data-testid="empty" :data-title="title">{{ description }}</div>`,
+		template: `<div data-testid="empty" :data-name="name" :data-title="title">{{ description }}</div>`,
 	},
 }))
 
-const translate = (text: string) => text
+const translate = (text: string) => (text === 'Coupons' ? 'Cupones' : text)
 
 vi.stubGlobal('__', translate)
 
@@ -244,13 +244,18 @@ describe('SettingsList', () => {
 	})
 
 	it('tells an empty list from a search that matched nothing', () => {
-		const empty = build({ rows: [], emptyName: 'Coupons' })
+		const empty = build({ rows: [], emptyName: 'Cupones' })
 		expect(empty.get('[data-testid="empty"]').text()).toContain(
 			'Add one to get started'
 		)
 
-		const noMatch = build({ rows: [], emptyName: 'Coupons', search: 'zzz' })
-		expect(noMatch.get('[data-testid="empty"]').text()).toContain('zzz')
+		const noMatch = build({ rows: [], emptyName: 'Cupones', search: 'zzz' })
+		expect(noMatch.get('[data-testid="empty"]').text()).toBe(
+			'No cupones match zzz'
+		)
+		expect(noMatch.get('[data-testid="empty"]').attributes('data-name')).toBe(
+			'Cupones'
+		)
 	})
 
 	it('shows the search box only when the panel asks for one', () => {
@@ -269,7 +274,7 @@ describe('SettingsList', () => {
 		it('draws it instead of the generic caption when the list is truly empty', () => {
 			const wrapper = build({
 				rows: [],
-				emptyName: 'Coupons',
+				emptyName: 'Cupones',
 				emptyContent: { component: EmptyContent },
 			})
 
@@ -280,7 +285,7 @@ describe('SettingsList', () => {
 		it('still shows the generic "no results" state for a search or filter', () => {
 			const searched = build({
 				rows: [],
-				emptyName: 'Coupons',
+				emptyName: 'Cupones',
 				search: 'zzz',
 				emptyContent: { component: EmptyContent },
 			})
@@ -291,7 +296,7 @@ describe('SettingsList', () => {
 
 			const filtered = build({
 				rows: [],
-				emptyName: 'Coupons',
+				emptyName: 'Cupones',
 				filtered: true,
 				emptyContent: { component: EmptyContent },
 			})
@@ -301,7 +306,7 @@ describe('SettingsList', () => {
 		})
 
 		it('leaves the plain caption alone for a page that supplies nothing', () => {
-			const wrapper = build({ rows: [], emptyName: 'Coupons' })
+			const wrapper = build({ rows: [], emptyName: 'Cupones' })
 
 			expect(wrapper.get('[data-testid="empty"]').text()).toContain(
 				'Add one to get started'
@@ -311,7 +316,7 @@ describe('SettingsList', () => {
 		it("funnels its pick into SettingsList's own `new` event", async () => {
 			const wrapper = build({
 				rows: [],
-				emptyName: 'Coupons',
+				emptyName: 'Cupones',
 				emptyContent: { component: EmptyContent },
 			})
 
@@ -323,7 +328,7 @@ describe('SettingsList', () => {
 		it('hides the header New button while its own content is the affordance', () => {
 			const wrapper = build({
 				rows: [],
-				emptyName: 'Coupons',
+				emptyName: 'Cupones',
 				emptyContent: { component: EmptyContent },
 			})
 
@@ -336,7 +341,7 @@ describe('SettingsList', () => {
 
 		it('keeps New for the generic empty state, and for a search with no matches', () => {
 			expect(
-				build({ rows: [], emptyName: 'Coupons' })
+				build({ rows: [], emptyName: 'Cupones' })
 					.findAll('[data-testid="button"]')
 					.some((b) => b.text().includes('New'))
 			).toBe(true)
@@ -344,7 +349,7 @@ describe('SettingsList', () => {
 			expect(
 				build({
 					rows: [],
-					emptyName: 'Coupons',
+					emptyName: 'Cupones',
 					search: 'zzz',
 					emptyContent: { component: EmptyContent },
 				})
@@ -356,7 +361,7 @@ describe('SettingsList', () => {
 		it('hides the search box while its own content is the affordance', () => {
 			const wrapper = build({
 				rows: [],
-				emptyName: 'Coupons',
+				emptyName: 'Cupones',
 				searchable: true,
 				emptyContent: { component: EmptyContent },
 			})
@@ -367,7 +372,7 @@ describe('SettingsList', () => {
 		it('keeps the search box for a search with no matches', () => {
 			const wrapper = build({
 				rows: [],
-				emptyName: 'Coupons',
+				emptyName: 'Cupones',
 				searchable: true,
 				search: 'zzz',
 				emptyContent: { component: EmptyContent },

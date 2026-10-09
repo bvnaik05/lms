@@ -7,7 +7,7 @@
 		:loading="jobs.list.loading"
 		:has-next-page="jobs.hasNextPage"
 		v-model:page-length="pageLength"
-		empty-name="Job Openings"
+		:empty-name="__('Job Openings')"
 		empty-icon="lucide-briefcase"
 		@load-more="jobs.next()"
 	>

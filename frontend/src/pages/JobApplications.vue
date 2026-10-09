@@ -10,7 +10,7 @@
 		:has-next-page="applications.hasNextPage"
 		:list-options="{ showTooltip: false, selectable: false }"
 		v-model:page-length="pageLength"
-		empty-name="Job Applications"
+		:empty-name="__('Job Applications')"
 		empty-icon="lucide-briefcase"
 		@load-more="applications.next()"
 	>

@@ -3,7 +3,7 @@ import { mount } from '@vue/test-utils'
 
 vi.stubGlobal('__', (text: string) => text)
 // translation.js installs String.prototype.format at app boot; the component
-// calls __('No {0} Found').format(name) and never reaches Vue without it.
+// formats its translated empty-state sentence with the localized list name.
 if (!('format' in String.prototype)) {
 	// eslint-disable-next-line no-extend-native
 	Object.defineProperty(String.prototype, 'format', {

@@ -161,7 +161,7 @@ const props = withDefaults(
 		loading?: boolean
 		hasNextPage?: boolean
 		pageLengthOptions?: number[]
-		/** What the empty state calls these rows, e.g. "Courses". */
+		/** Translated name for these rows, e.g. __('Courses'). */
 		emptyName?: string
 		emptyTitle?: string
 		emptyDescription?: string
@@ -262,10 +262,10 @@ const loadedMessage = () => {
 	// Matches the empty state's wording deliberately, so it doesn't read as a
 	// second, different event. A failed first fetch also lands here: the
 	// resource leaves `rows` empty and reports failure only via `error`.
-	if (!props.rows.length) return __('No {0} Found').format(props.emptyName)
-	// Counted rather than named. `emptyName` is a plural noun passed untranslated
-	// ("Courses"), so a translated frame around it reads half-English, and there
-	// is no singular of it to reach for when the count is one.
+	if (!props.rows.length)
+		return __('No {0} Found').format(props.emptyName)
+	// Counted rather than named, because `emptyName` is plural and has no useful
+	// singular form when the count is one.
 	if (props.rows.length === 1) return __('1 result loaded')
 	return __('{0} results loaded').format(props.rows.length)
 }

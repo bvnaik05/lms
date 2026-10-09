@@ -111,7 +111,12 @@ export const emailTemplateSettingsPage: ListPage = {
 	},
 	columns,
 	searchable: true,
-	empty: { name: 'Email Templates', icon: 'lucide-mail-plus' },
+	empty: {
+		get name() {
+			return __('Email Templates')
+		},
+		icon: 'lucide-mail-plus',
+	},
 	create: { detail: form.forNew() },
 	rowDetail: form.forRecord(),
 }

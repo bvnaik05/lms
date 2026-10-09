@@ -1,9 +1,11 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { mount } from '@vue/test-utils'
+import { call } from 'frappe-ui'
 import EditCoverImage from '@/components/Modals/EditCoverImage.vue'
-import translationPlugin from '@/translation'
+import translationPlugin, { loadTranslations } from '@/translation'
 
 vi.mock('frappe-ui', () => ({
+	call: vi.fn(),
 	Popover: { template: '<div><slot /></div>' },
 	TextInput: { template: '<input />' },
 	Button: { template: '<button><slot /></button>' },
@@ -46,6 +48,20 @@ afterEach(() => {
 })
 
 describe('cover-image translations', () => {
+	it('loads the language catalog before the app renders translated labels', async () => {
+		browser.translatedMessages = undefined
+		vi.mocked(call).mockResolvedValue(messages)
+
+		const firstLoad = loadTranslations()
+		const secondLoad = loadTranslations()
+
+		await expect(firstLoad).resolves.toEqual(messages)
+		await expect(secondLoad).resolves.toEqual(messages)
+		expect(call).toHaveBeenCalledTimes(1)
+		expect(browser.translatedMessages).toEqual(messages)
+		expect(browser.__?.('Upload Image')).toBe(messages['Upload Image'])
+	})
+
 	it('translates the search placeholder and upload action', () => {
 		expect(wrapper.get('input').attributes('placeholder')).toBe(
 			messages['search by keyword']

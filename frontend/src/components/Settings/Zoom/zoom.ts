@@ -151,7 +151,12 @@ export const zoomSettingsPage: ListPage = {
 	},
 	columns,
 	searchable: true,
-	empty: { name: 'Zoom Settings', icon: 'lucide-video' },
+	empty: {
+		get name() {
+			return __('Zoom Settings')
+		},
+		icon: 'lucide-video',
+	},
 	create: { detail: form.forNew() },
 	rowDetail: form.forRecord(),
 }

@@ -13,7 +13,7 @@
 		:loading="programs.list.loading || reloading"
 		:has-next-page="programs.hasNextPage"
 		v-model:page-length="pageLength"
-		empty-name="Programs"
+		:empty-name="__('Programs')"
 		empty-icon="lucide-graduation-cap"
 		@load-more="programs.next()"
 	>

@@ -50,7 +50,11 @@
 				</div>
 				<div v-else class="flex-1">
 					<EmptyStateLayout
-						:name="convertToTitleCase(category) + ' Programs'"
+						:name="
+							category === 'enrolled'
+								? __('Enrolled Programs')
+								: __('Published Programs')
+						"
 						icon="lucide-graduation-cap"
 					/>
 				</div>
@@ -63,7 +67,6 @@ import { createResource, TabButtons } from 'frappe-ui'
 import { computed, ref } from 'vue'
 
 import { useRouter } from 'vue-router'
-import { convertToTitleCase } from '@/utils'
 import ProgressBar from '@/components/ProgressBar.vue'
 import EmptyStateLayout from '@/components/Layouts/EmptyStateLayout.vue'
 import { openFormRoute } from '@/composables/useFormRoute'

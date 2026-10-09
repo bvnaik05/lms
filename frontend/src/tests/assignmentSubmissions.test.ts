@@ -154,9 +154,9 @@ describe('the assignment submissions page', () => {
 		})
 	})
 
-	// SubmissionsPage wraps these in `__()` itself, so this page must pass raw
-	// text or a real translator would double-translate.
-	it('hands the shared page raw text for title, pageTitle and placeholders', async () => {
+	// The title and placeholders are translated by SubmissionsPage. The empty
+	// name is translated here so the catalog can extract its complete label.
+	it('translates the empty name and leaves shared page text raw', async () => {
 		await mountPage({ is_moderator: true })
 		const config = seen[0] as {
 			title: string
@@ -166,7 +166,7 @@ describe('the assignment submissions page', () => {
 		}
 		expect(config.title).toBe('Submissions')
 		expect(config.pageTitle).toBe('Assignment Submissions')
-		expect(config.emptyName).toBe('Assignment Submissions')
+		expect(config.emptyName).toBe('t:Assignment Submissions')
 		expect(config.filters.map((f) => [f.key, f.placeholder])).toEqual([
 			['assignment', 'Filter by Assignment'],
 			['member', 'Filter by Member'],

@@ -836,6 +836,10 @@ msgstr ""
 msgid "Assignment must be a string."
 msgstr ""
 
+#: frontend/src/pages/AssignmentSubmissions.vue:117
+msgid "Assignment Submissions"
+msgstr ""
+
 #: frontend/src/components/Assignment.vue:465
 msgid "Assignment submitted successfully"
 msgstr ""
@@ -1009,6 +1013,10 @@ msgstr ""
 msgid "Badge"
 msgstr ""
 
+#: frontend/src/components/Settings/Badges/badgeAssignments.ts:137
+msgid "Badge Assignments"
+msgstr ""
+
 #. Label of the badge_description (Small Text) field in DocType 'LMS Badge
 #. Assignment'
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
@@ -1018,6 +1026,10 @@ msgstr ""
 #. Label of the badge_image (Attach) field in DocType 'LMS Badge Assignment'
 #: lms/lms/doctype/lms_badge_assignment/lms_badge_assignment.json
 msgid "Badge Image"
+msgstr ""
+
+#: frontend/src/components/Settings/Badges/badges.ts:300
+msgid "Badges"
 msgstr ""
 
 #: lms/lms/doctype/lms_badge/lms_badge.js:56
@@ -1366,6 +1378,10 @@ msgstr ""
 #. Option for the 'Attire Preference' (Select) field in DocType 'User'
 #: lms/fixtures/custom_field.json
 msgid "Casual Wear"
+msgstr ""
+
+#: frontend/src/components/Settings/Categories.vue:11
+msgid "Categories"
 msgstr ""
 
 #. Label of the category (Link) field in DocType 'LMS Batch'
@@ -2240,6 +2256,10 @@ msgstr ""
 
 #: frontend/src/components/Settings/Coupons/CouponForm.vue:284
 msgid "Coupon updated successfully"
+msgstr ""
+
+#: frontend/src/components/Settings/Coupons/Coupons.vue:11
+msgid "Coupons"
 msgstr ""
 
 #. Label of the course (Link) field in DocType 'Batch Course'
@@ -3236,6 +3256,10 @@ msgstr ""
 msgid "Email Account {0} does not exist"
 msgstr ""
 
+#: frontend/src/components/Settings/EmailAccount/emailAccounts.ts:700
+msgid "Email Accounts"
+msgstr ""
+
 #: frontend/src/components/Settings/Transactions/AddressModal.vue:69
 msgid "Email Address"
 msgstr ""
@@ -3487,6 +3511,10 @@ msgstr ""
 #: frontend/src/pages/Batches/components/AdminBatchDashboard.vue:273
 #: frontend/src/pages/Courses/CourseDashboard.vue:417
 msgid "Enrolled On"
+msgstr ""
+
+#: frontend/src/pages/Programs/StudentPrograms.vue:55
+msgid "Enrolled Programs"
 msgstr ""
 
 #: frontend/src/components/CourseCard.vue:62
@@ -4331,6 +4359,10 @@ msgstr ""
 msgid "Google Meet Link"
 msgstr ""
 
+#: frontend/src/components/Settings/GoogleMeet/googleMeet.ts:191
+msgid "Google Meet Settings"
+msgstr ""
+
 #. Label of the grade (Data) field in DocType 'Education Detail'
 #: frontend/src/components/Assignment.vue:213
 #: lms/lms/doctype/education_detail/education_detail.json
@@ -4929,6 +4961,10 @@ msgstr ""
 #. Label of the job (Link) field in DocType 'LMS Job Application'
 #: lms/job/doctype/lms_job_application/lms_job_application.json
 msgid "Job"
+msgstr ""
+
+#: frontend/src/pages/JobApplications.vue:13
+msgid "Job Applications"
 msgstr ""
 
 #: frontend/src/pages/Forms/JobForm.vue:21
@@ -7192,6 +7228,10 @@ msgstr ""
 msgid "Payment Gateway"
 msgstr ""
 
+#: frontend/src/components/Settings/PaymentGateways/paymentGateways.ts:32
+msgid "Payment Gateways"
+msgstr ""
+
 #. Label of the payment_id (Data) field in DocType 'LMS Payment'
 #: frontend/src/components/Settings/Transactions/TransactionForm.vue:56
 #: lms/lms/doctype/lms_payment/lms_payment.json
@@ -7849,6 +7889,10 @@ msgstr ""
 msgid "Programming Exercise Submission"
 msgstr ""
 
+#: frontend/src/pages/ProgrammingExercises/ProgrammingExerciseSubmissions.vue:131
+msgid "Programming Exercise Submissions"
+msgstr ""
+
 #: frontend/src/pages/Forms/ProgrammingExerciseForm.vue:456
 msgid "Programming Exercise deleted successfully"
 msgstr ""
@@ -7948,6 +7992,10 @@ msgstr ""
 #: lms/lms/doctype/lms_course/lms_course.json
 #: lms/lms/doctype/lms_program/lms_program.json
 msgid "Published"
+msgstr ""
+
+#: frontend/src/pages/Programs/StudentPrograms.vue:56
+msgid "Published Programs"
 msgstr ""
 
 #: frontend/src/pages/Statistics.vue:12
@@ -10439,6 +10487,10 @@ msgstr ""
 
 #: frontend/src/components/Settings/Transactions/TransactionForm.vue:465
 msgid "Transaction updated successfully"
+msgstr ""
+
+#: frontend/src/components/Settings/Transactions/Transactions.vue:11
+msgid "Transactions"
 msgstr ""
 
 #. Option for the 'Location Preference' (Select) field in DocType 'User'

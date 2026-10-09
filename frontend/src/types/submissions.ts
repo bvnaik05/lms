@@ -21,9 +21,9 @@ export interface SubmissionScopeCrumb {
 	route: (value: string) => RouteLocationRaw
 }
 
-// Raw (the page translates): title, pageTitle, filters[].placeholder, emptyName.
+// Raw (the page translates): title, pageTitle, filters[].placeholder.
 // Translated by the caller: parentCrumb.label, columns[].label and
-// filters[].options[].label, which reach the DOM verbatim.
+// filters[].options[].label and emptyName, which reach the DOM verbatim.
 export interface SubmissionsConfig {
 	doctype: string
 	fields: string[]
@@ -37,7 +37,7 @@ export interface SubmissionsConfig {
 	title: string
 	/** document.title for the page. Raw English; translated by the page. */
 	pageTitle: string
-	/** Raw English, and left untranslated — ListPage frames it. */
+	/** Translated by the route and used by both empty-state messages. */
 	emptyName: string
 	emptyIcon: string
 	transform?: (rows: ListRow[]) => ListRow[]

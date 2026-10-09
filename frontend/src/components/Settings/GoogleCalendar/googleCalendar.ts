@@ -82,7 +82,12 @@ export const googleCalendarSettingsPage: ListPage = {
 	},
 	columns,
 	searchable: true,
-	empty: { name: 'Google Calendar', icon: 'lucide-calendar' },
+	empty: {
+		get name() {
+			return __('Google Calendar')
+		},
+		icon: 'lucide-calendar',
+	},
 	create: { detail },
 	rowDetail: detail,
 	requiresGoogleApi: true,

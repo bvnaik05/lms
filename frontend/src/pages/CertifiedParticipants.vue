@@ -7,7 +7,7 @@
 		:has-next-page="participants.hasNextPage"
 		row-key="key"
 		v-model:page-length="pageLength"
-		empty-name="Certified Members"
+		:empty-name="__('Certified Members')"
 		empty-icon="lucide-badge-check"
 		@load-more="participants.next()"
 	>

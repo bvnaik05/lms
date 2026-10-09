@@ -186,7 +186,12 @@ export const googleMeetSettingsPage: ListPage = {
 	},
 	columns,
 	searchable: true,
-	empty: { name: 'Google Meet Settings', icon: 'lucide-presentation' },
+	empty: {
+		get name() {
+			return __('Google Meet Settings')
+		},
+		icon: 'lucide-presentation',
+	},
 	create: { detail: form.forNew() },
 	rowDetail: form.forRecord(),
 	requiresGoogleCalendar: true,
